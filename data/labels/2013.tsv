@@ -1,0 +1,65 @@
+1	M	EC.5.2.1	Two-way staircase switch logic (XOR)
+2	M	EC.1.4.4	Stokes' theorem for closed line integral
+3	M	EC.2.5.5	Cascade impulse response = convolution
+4	M	EC.3.3.1	Current mechanism in forward-biased pn junction
+5	M	EC.3.3	Dry vs wet oxidation in IC fabrication	IC fabrication
+6	M	EC.1.2.8	Validity of sin(x)≈x approximation
+7	M	EC.1.4.3	Divergence of position vector field
+8	M	EC.2.5.5	Output by convolution (ramp response to delayed step)
+9	M	EC.6.4.2	Transfer function from Bode magnitude plot
+10	M	EC.4.3.1	Op-amp with BJT in feedback: output voltage
+11	M	EC.2.4.2	Scaling of delta-star equivalent
+12	M	EC.5.6.1	8085 program: accumulator contents	8085 microprocessor
+13	M	EC.7.4.4	Minimum bandwidth for 32-QAM
+14	M	EC.2.6.1	Fundamental frequency of periodic signal
+15	M	EC.4.2	Voltage-series feedback: input/output impedance	Feedback amplifiers
+16	M	EC.2.6.3	Invalid sampling frequency (Nyquist)
+17	M	EC.3.3.5	Channel-length modulation effect
+18	M	EC.2.5.3	Pole/zero conditions for causal stable LTI system
+19	M	EC.1.1.5	Minimum eigenvalue of 3x3 matrix
+20	M	EC.1.2	Real roots of polynomial with sign pattern	Algebra (roots of polynomials)
+21	M	EC.2.5.4	Step response of block-diagram system
+22	M	EC.2.3.4	Transfer function of RC/RL circuit (s-domain)
+23	M	EC.2.2.3	Resistive load for maximum power
+24	M	EC.8.3.3	Return loss to VSWR and reflection coefficient
+25	M	EC.7.4.7	Matched filter output Fourier transform
+26	M	EC.1.6.7	Probability with independent Gaussian RVs
+27	M	EC.1.1.4	Determinant using det(I+AB)=det(I+BA)
+28	M	EC.2.1.3	Thevenin voltage with transformer and dependent source
+29	M	EC.6.1.2	Feedback gain to reduce time constant of DC motor
+30	M	EC.4.1	Zener regulator: min load and power rating
+31	M	EC.2.1.5	Transformer + attenuator: reciprocity test
+32	M	EC.2.3.3	Effective Q factor of series coils
+33	M	EC.2.5.4	Step response from impulse response
+34	M	EC.4.2.3	Small-signal resistance of diode-connected MOSFET
+35	M	EC.4.2.4	Lower cutoff frequency of CS stage
+36	M	EC.2.5	Laplace transform of ODE response to pulse
+37	M	EC.1.3.1	Modify first-order ODE to scale solution
+38	M	EC.1.6.3	Comparing CDFs of U and 2V
+39	M	EC.2.7.2	DFT of circular convolution
+40	M	EC.6.1.5	Transfer function from signal flow graph
+41	M	EC.4.3.1	Cascaded ideal op-amp circuit output
+42	M	EC.5.2.4	BJT-diode logic gate Boolean function	Logic families (TTL/DTL)
+43	M	EC.4.1	Diode network output for sinusoidal input
+44	M	EC.2.1	Max safe voltage of capacitor network
+45	M	EC.5.5	Address decoding for 1 KB memory chips	Memory interfacing
+46	M	EC.4.2.1	BJT voltage-divider bias: find R2
+47	M	EC.7.3.1	Entropy of sum of two binary RVs
+48	M	EC.7.4.8	BER for given detection threshold
+49	M	EC.7.4.6	Optimum threshold for minimum BER
+50	M	EC.2.1.1	Source current/voltage in DC circuit
+51	M	EC.2.1.1	Current in 1-ohm resistor
+52	M	EC.8.2.1	Oblique incidence: angle and incident field
+53	M	EC.8.2.1	Oblique incidence: reflected field
+54	M	EC.6.6.1	State equations from block diagram
+55	M	EC.6.6.2	State transition matrix
+56	M	GA.1.1	Grammatically correct sentence
+57	M	GA.1.3	Best inference from statement
+58	M	GA.2.2	Average temperature problem
+59	M	GA.1.1	Sentence completion (Dare ...)
+60	M	GA.1.2	Closest meaning (quarrel)
+61	M	GA.2.2	Average speed
+62	M	GA.2.2	Sum of series
+63	M	GA.1.3	Best inference from statement
+64	M	GA.2.2	Roots of quadratic of opposite sign
+65	M	GA.2.4	Leap year with 53 Saturdays

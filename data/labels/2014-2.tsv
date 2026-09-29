@@ -1,0 +1,65 @@
+GA1	-	GA.1.1	Word completion (both)
+GA2	-	GA.1.1	Sentence completion (conditional)
+GA3	-	GA.1.2	Word pair (bear, losing)
+GA4	-	GA.2.4	Die frequencies: fair or not
+GA5	-	GA.3.3	Missing number in series
+GA6	-	GA.3.2	Odd one out in letter groups
+GA7	-	GA.3.1	Coloured lights on ladder: deduction
+GA8	-	GA.2.2	Consecutive odd/even numbers
+GA9	-	GA.2.1	Exports pie charts interpretation
+GA10	-	GA.2.2	Tank filling/draining rate
+1	-	EC.1.1.4	Determinant of product AB
+2	-	EC.1.6.1	Expectation of uniform over odd numbers
+3	-	EC.1.2.5	Maximum of e^-t - 2e^-2t
+4	-	EC.1.2	Limit (1+1/x)^x
+5	-	EC.1.3.1	Equal roots of characteristic equation
+6	-	EC.2.1.4	Statement of Norton's theorem
+7	-	EC.2.3	Current at t=0+ after switch closes
+8	-	EC.3.1.3	Equilibrium n0, p0 in doped silicon
+9	-	EC.3.3.3	Effect of base recombination on BJT
+10	-	EC.3.3	Forming shallow wells (ion implantation)	IC fabrication
+11	-	EC.4.2	Feedback topology identification	Feedback amplifiers
+12	-	EC.4.2.6	Diff amp: effect of increasing RE on CMRR
+13	-	EC.4.2	Overall gain of cascaded voltage amplifiers
+14	-	EC.5.2.3	Maximum number of prime implicants
+15	-	EC.5.1.1	Bytes for packed BCD number
+16	-	EC.5.2.5	Half-subtractor borrow and difference
+17	-	EC.2.5.6	FIR system: minimum/maximum phase
+18	-	EC.2.7.3	Zeros of z-transform of even sequence
+19	-	EC.2.6.1	Power ratio of square-wave harmonics
+20	-	EC.6.2.1	Damped natural frequency
+21	-	EC.6.1.4	Transfer function from block diagram
+22	-	EC.7.3.4	AWGN capacity as bandwidth grows
+23	-	EC.7.2.1	AM modulation index from envelope
+24	-	EC.8.3.3	Quarter-wave transformer impedance
+25	-	EC.8.1.4	TEM wave direction from E and H
+26	-	EC.1.1.7	Consistency of linear system
+27	-	EC.1.5.1	Imaginary part of analytic function
+28	-	EC.1.1.4	Max determinant of symmetric matrix with trace 14
+29	-	EC.1.4.3	Divergence of r^2 grad(ln r)
+30	-	EC.2.3.3	Series RLC off resonance: operating frequency
+31	-	EC.2.4.1	h22 of resistive two-port
+32	-	EC.2.3.2	RC circuit current for t>0
+33	-	EC.2.2	Mutual inductance from coupling coefficient	Magnetically coupled circuits
+34	-	EC.3.2.1	Electron diffusion current density
+35	-	EC.3.3.1	Peak electric field in abrupt PN junction
+36	-	EC.3.3.1	Depletion width split and max field
+37	-	EC.4.1.1	Diode clipper min/max output
+38	-	EC.3.3.5	MOSFET drain current at new bias
+39	-	EC.4.2.1	CMOS stack bias current
+40	-	EC.5.3.1	D flip-flop timing diagram with AND output
+41	-	EC.5.3.1	JK flip-flop sequence generation
+42	-	EC.5.6.1	8085 I/O interfacing instruction	8085 microprocessor
+43	-	EC.2.5.5	Self-convolution value y[4]
+44	-	EC.2.5.4	Impulse response sum of first-order recursion
+45	-	EC.2.6.2	Integral of sinc^2 (Parseval)
+46	-	EC.6.6.2	Solution of unforced state equation
+47	-	EC.6.2.2	Ramp steady-state error from Bode plot
+48	-	EC.6.6.1	Controllability/observability from SFG
+49	-	EC.1.6.6	Quantizer threshold for exponential pdf
+50	-	EC.7.4.8	Coherent BFSK error probability
+51	-	EC.7.1.1	Autocorrelation from PSD
+52	-	EC.7.2.1	Frequency-translation/scrambler bandwidth
+53	-	EC.8.2.2	Polarization of plane wave
+54	-	EC.8.3.4	Input impedance of transmission-line network
+55	-	EC.8.4.1	Waveguide dimension from cutoff relation

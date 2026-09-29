@@ -1,0 +1,65 @@
+GA1	-	GA.1.2	Closest meaning (dissent)
+GA2	-	GA.1.2	Meaning of 'revert'
+GA3	-	GA.1.2	Meaning of 'vindicated'
+GA4	-	GA.2.2	Effect of scaling x and y on x^n y^m
+GA5	-	GA.2.2	Sum of consecutive odd numbers
+GA6	-	GA.3.3	Alphanumeric sequence
+GA7	-	GA.3.3	Coding-decoding of phrases
+GA8	-	GA.2.2	Uniform annual growth rate
+GA9	-	GA.2.1	Cost pie chart interpretation
+GA10	-	GA.2.2	Sum of all 5-digit permutations
+1	-	EC.1.5.4	Sum of series 1/n!
+2	-	EC.1.4.3	Magnitude of gradient
+3	-	EC.1.6.7	E[|X|] for standard Gaussian
+4	-	EC.1.3.1	General solution with repeated roots
+5	-	EC.1.4.3	Directional derivative
+6	-	EC.2.1	Identify controlled-source type
+7	-	EC.2.1.1	Current through resistor
+8	-	EC.3.1.2	Wavelength range for GaAs absorption
+9	-	EC.3.1.3	ln(intrinsic resistivity) vs 1/T slope
+10	-	EC.3.1.2	Cutoff wavelength for bandgap 1.1 eV
+11	-	EC.4.2.3	Unbypassed emitter resistance effect
+12	-	EC.4.1.1	Two-diode clipper transfer range
+13	-	EC.4.3	Identify op-amp monostable multivibrator	Multivibrators and 555 timer
+14	-	EC.5.4.1	Hold capacitor: droop vs acquisition time
+15	-	EC.5.2.1	Logic circuit output with C=0
+16	-	EC.5.2.1	Output of logic circuit
+17	-	EC.2.7.1	DTFT pair: find constant A
+18	-	EC.2.5.8	Output of linear-phase band-limited system
+19	-	EC.2.5.5	Sum of self-convolved sequence
+20	-	EC.6.4.2	High-frequency Bode slope of 4th-order system
+21	-	EC.6.2.1	Natural frequency of second-order loop
+22	-	EC.1.6.5	Distribution of number of calls (Poisson)
+23	-	EC.7.2.1	AM sideband-to-carrier power ratio
+24	-	EC.8.1.4	Average power density at 2 km
+25	-	EC.8.6	Match antenna types to radiation properties
+26	-	EC.1.3.8	Second-order ODE initial value problem
+27	-	EC.1.6.8	Lost parcel: conditional probability
+28	-	EC.2.5	Laplace transform of t·f(t)
+29	-	EC.1.2.5	Maximum area of right triangle
+30	-	EC.2.2.1	RC network frequency for given amplitude
+31	-	EC.2.3.1	RL circuit with dependent source as t→∞
+32	-	EC.2.1	Infinite resistive ladder equivalent resistance
+33	-	EC.2.4.1	Z-parameters of two-port
+34	-	EC.3.1.3	Electron concentration after compensation doping
+35	-	EC.3.3.3	VBE difference for BJTs of different area
+36	-	EC.3.1.2	Energy band diagram of biased N-type bar
+37	-	EC.4.2.3	Common-collector small-signal gain
+38	-	EC.4.2.3	CB input impedance matched to antenna
+39	-	EC.4.2.1	Max undistorted swing of CC amplifier
+40	-	EC.5.2.7	Function realised with 8:1 MUX
+41	-	EC.5.2.5	Worst-case delay of ripple-carry adder
+42	-	EC.5.6.1	8085 STA: address bus sequence	8085 microprocessor
+43	-	EC.2.5.2	Cascade to make system causal
+44	-	EC.2.5.4	Impulse/step response of second-order system
+45	-	EC.2.7.2	Sequence satisfying DFT(DFT(x)) = x
+46	-	EC.6.6.2	State transition matrix
+47	-	EC.6.3.1	Max parameter for stability
+48	-	EC.6.4.3	Gain at intersection with damping line
+49	-	EC.7.4.6	Threshold detector with unequal priors
+50	-	EC.7.3	Z-channel posterior probability
+51	-	EC.7.4.4	Minimum M for M-PSK with raised cosine
+52	-	EC.7.4.8	Error probability with signal-dependent noise
+53	-	EC.8.1	Potential difference from E-field plot	Electrostatics
+54	-	EC.1.4.4	Surface integral of curl (Stokes)
+55	-	EC.8.1	Electrostatic potential from E field	Electrostatics

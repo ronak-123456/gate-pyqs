@@ -1,0 +1,65 @@
+1	-	GA.1.1	Correlative conjunctions (neither/nor)
+2	-	GA.2.2	Proportional distribution
+3	-	GA.2.3	Height of trapezium
+4	-	GA.4.1	Counting squares in grid with hole
+5	-	GA.4.1	Guard position with line of sight
+6	-	GA.1.3	Inference from passage (mosquitoes)
+7	-	GA.2.2	Solving pair of inequalities
+8	-	GA.2.3	Area of quadrilateral from vertices
+9	-	GA.3.1	Who copied: truth-teller logic
+10	-	GA.4.1	Square rotations and reflections
+11	-	EC.1.2.7	Line integral over closed contour
+12	-	EC.1.1.7	Consistency of linear system
+13	-	EC.2.1.1	Current in resistive circuit
+14	-	EC.2.1.1	Current through 10-ohm resistor
+15	-	EC.2.6.2	Fourier transform via duality
+16	-	EC.3.2.1	Diffusion with illumination at one end
+17	-	EC.3.1.3	Fermi level shift with carrier density
+18	-	EC.5.2.4	CMOS inverter switching threshold
+19	-	EC.5.2.7	MUX inputs to realise XOR
+20	-	EC.3.3.5	Steady-state capacitor voltages via MOSFETs
+21	-	EC.6.3.2	Stability from Nyquist plot with gain K
+22	-	EC.6.4.3	Transfer function from root-locus plot
+23	-	EC.2.5.8	Pure delay and PSD statements
+24	-	EC.8.1.1	Displacement current in series RC
+25	-	EC.1.3.6	Exponential solutions of a PDE
+26	-	EC.4.3.5	Op-amp filter type and 3-dB frequency
+27	-	EC.5.2.1	Boolean functions equivalent to x+yz
+28	-	EC.5.2.4	CMOS inverter statements
+29	-	EC.7.3.1	Entropy inequalities under functions
+30	-	EC.8.1.3	Solutions of wave equation
+31	-	EC.1.6.1	Median from frequency bar graph
+32	-	EC.1.5.6	Contour integral with poles at ±1
+33	-	EC.2.5.5	Limit of convolution as t→∞
+34	-	EC.3.3.4	MOS capacitor inversion charge vs VG
+35	-	EC.7.4.3	Data rate of mixed QPSK/16-QAM stream
+36	-	EC.1.2.5	Minimum of 8 ln x - x² + 3
+37	-	EC.1.1.5	Eigenvalues of sum of outer products
+38	-	EC.2.2.1	Impedance locus: find R1, R2
+39	-	EC.2.2.1	Identify element from current waveform
+40	-	EC.3.3.5	MOSFET current with time-varying VGS
+41	-	EC.4.3.1	Capacitor voltage swing in op-amp circuit
+42	-	EC.4.3.5	R and C from Bode plot of op-amp circuit
+43	-	EC.5.3.1	Flip-flop output frequency and duty cycle
+44	-	EC.6.3.1	K range for purely imaginary roots
+45	-	EC.1.5.4	Convergence of series n^d/c^n
+46	-	EC.2.5.1	Identify non-LTI systems from outputs
+47	-	EC.3.3	Semiconductor device statements
+48	-	EC.5.3.4	Probabilistic state-transition relations
+49	-	EC.5.2.1	Functional completeness of A + B' gate
+50	-	EC.6.2.1	Compare step responses of two systems
+51	-	EC.7.2.2	De-emphasis filter RC values
+52	-	EC.8.4	Parallel-plate waveguide TM propagation
+53	-	EC.1.2.6	Double integral over triangle
+54	-	EC.2.1.3	Two-port Thevenin equivalent from V-I plot
+55	-	EC.2.7.2	DFT applied twice
+56	-	EC.3.2.5	Continuity equation with generation profile
+57	-	EC.4.1	Diode circuit small-signal gain ratio
+58	-	EC.4.3.1	Op-amp output voltage
+59	-	EC.4.2.3	MOSFET small-signal gains at two nodes
+60	-	EC.6.2.2	Steady-state error due to disturbance
+61	-	EC.7.3.4	α maximising channel capacity
+62	-	EC.7.4.10	Hamming (7,4) decoding success probability
+63	-	EC.7.4.6	ML detection with exponential pdfs
+64	-	EC.7.4.1	Optimal 1-bit quantizer levels
+65	-	EC.1.4.4	Divergence theorem over cube

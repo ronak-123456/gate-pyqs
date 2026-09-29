@@ -1,0 +1,65 @@
+1	-	EC.1.1.6	Rank of 5x5 matrix
+2	-	EC.1.3.1	General solution of second-order ODE
+3	-	EC.1.4.1	Angle between two planes
+4	-	EC.1.5.6	Residues at simple and triple pole
+5	-	EC.2.3.3	Series RLC at resonance: VC/VR
+6	-	EC.2.1	Max/min resistance over permutations
+7	-	EC.2.7.4	FIR filter type from impulse response
+8	-	EC.2.5.1	Linearity and time-invariance of moving integrator
+9	-	EC.3.3.5	MOSFET in saturation with CLM as current source
+10	-	EC.3.3.3	Early effect: base width and gain
+11	-	EC.3.3.5	MOSFET transconductance in linear region
+12	-	EC.4.1.3	Half-wave rectifier average output
+13	-	EC.4.1.2	Clamper with diode and Zener
+14	-	EC.4.2.1	BJT bias: VCE
+15	-	EC.5.2.4	Pass-transistor logic function
+16	-	EC.5.2.7	Boolean function of two-MUX circuit
+17	-	EC.5.5.3	DRAM storage mechanism
+18	-	EC.6.1.4	Transfer function of block diagram
+19	-	EC.6.6.2	Steady-state state vector magnitude
+20	-	EC.6.5.1	Lead/lag compensator statements
+21	-	EC.7.3.4	BSC capacity vs crossover probability
+22	-	EC.7.1	Mean of random process U + Vt
+23	-	EC.7.4.1	PCM bits for 40 dB SQNR
+24	-	EC.8.1	Connected conducting spheres: V and E	Electrostatics
+25	-	EC.8.3.3	Reflected power from VSWR
+26	-	EC.1.2.6	Iterated integrals in different order
+27	-	EC.1.5.6	Contour integral by residues
+28	-	EC.1.4.3	Constants for irrotational field
+29	-	EC.1.6.1	Mean number of attempts (geometric)
+30	-	EC.1.2.5	Minimum of cubic on interval
+31	-	EC.2.3.1	RL transient current
+32	-	EC.2.1.3	Thevenin resistance with dependent source
+33	-	EC.2.5.7	Output power through filter with linear phase
+34	-	EC.2.5.4	Integrator output to sinc input as t→∞
+35	-	EC.2.5.4	Energy of parallel-system output
+36	-	EC.3.3.4	MOS capacitor fixed charge from flat-band
+37	-	EC.3.3.9	Solar cell Voc vs intensity
+38	-	EC.3.3.5	MOSFET ID and gm scaling
+39	-	EC.3.3.1	Electric field profile of pn junction
+40	-	EC.4.2.1	Operating regions of stacked NMOS
+41	-	EC.4.2.3	Cascode-like BJT stage gain
+42	-	EC.4.3.1	Op-amp bandgap-type voltage reference
+43	-	EC.5.3.4	FSM sequence detector output count
+44	-	EC.5.2.5	Ripple-carry adder settling time
+45	-	EC.5.2.1	Function implemented by PLA
+46	-	EC.6.3.1	k for sustained oscillation at 2 rad/s
+47	-	EC.6.2.1	Damping of second-order state model
+48	-	EC.6.3.2	RHP closed-loop poles from Nyquist plot
+49	-	EC.2.6.4	Aliased sinusoids after sampling
+50	-	EC.7.2.1	AM transmitter carrier power vs modulation
+51	-	EC.7.2.2	Instantaneous frequency of PM signal
+52	-	EC.7.3.4	Classify binary channel (useless)
+53	-	EC.8.1	Closest approach of two electrons	Electrostatics
+54	-	EC.8.4.1	Waveguide operating frequency range
+55	-	EC.8.2.1	Critical angle: depth of light source
+56	-	GA.1.2	Word completion (respectively)
+57	-	GA.1.1	Comparative sentence completion
+58	-	GA.3.1	Rule checking (drinking age)
+59	-	GA.2.3	Direction and distance
+60	-	GA.2.2	Three-set inclusion-exclusion
+61	-	GA.1.3	Author's opinion from passage
+62	-	GA.3.1	Family relations: false statement
+63	-	GA.2.2	Work with men and women
+64	-	GA.2.2	3-digit numbers without '21'
+65	-	GA.4.1	Steepest path on contour map

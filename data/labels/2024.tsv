@@ -1,0 +1,65 @@
+1	-	GA.1.2	Word analogy by intensity
+2	-	GA.3.1	Room allocation with sibling constraint
+3	-	GA.2.2	Age ratio problem
+4	-	GA.2.2	Logarithm equation
+5	-	GA.2.2	Greatest prime factor of 3^199 - 3^196
+6	-	GA.1.4	Sequence sentences into passage
+7	-	GA.2.3	Duct tape around four cylinders
+8	-	GA.2.1	BMI bar chart: incorrect statement
+9	-	GA.4.1	Mirror and water reflection
+10	-	GA.4.1	Folding sheets: resulting dimensions
+11	-	EC.1.3.5	ODE from complementary function
+12	-	EC.6.4.2	dB/decade to dB/octave
+13	-	EC.6.2.2	Steady-state error for step input
+14	-	EC.7.4.5	Nyquist ISI-free pulse condition
+15	-	EC.8.3.4	Input impedance of shorted line at points
+16	-	EC.1.4.3	Curl/divergence of vector fields
+17	-	EC.4.2.3	Input impedance of MOS stage
+18	-	EC.4.2.6	Closed-loop gain of differential amplifier
+19	-	EC.5.2.3	Essential prime implicants
+20	-	EC.7.1.4	Variance of RC-filtered white noise
+21	-	EC.2.5.5	Time scaling of input and impulse response
+22	-	EC.3.1.3	Electron concentration vs temperature
+23	-	EC.4.1.3	Transformer rectifier: turns ratio
+24	-	EC.2.7.3	Discrete system stability and phase
+25	-	EC.1.4.4	Continuity equation via divergence theorem
+26	-	EC.3.2.1	Diffusion and drift in non-uniform doping
+27	-	EC.5.6.1	Instruction format field widths
+28	-	EC.7.2.1	AM sideband amplitude from power ratio
+29	-	EC.5.1.1	Base of number system from equation
+30	-	EC.1.1.2	α for vectors not forming a basis
+31	-	EC.2.1.1	Current with dependent source
+32	-	EC.2.3.1	Time constant of RL circuit
+33	-	EC.1.6.8	P(X > Y) for iid uniforms
+34	-	EC.7.3.1	Maximum entropy of 16-symbol source
+35	-	EC.4.1	Energy dissipated in Zener diode
+36	-	EC.1.2.6	Surface area of spherical cap
+37	-	EC.6.3.1	K for faster-decaying impulse response
+38	-	EC.6.5.1	Compensator parameters for satellite control
+39	-	EC.8.2.1	Oblique incidence on dielectric
+40	-	EC.5.2.8	Priority encoder output expression
+41	-	EC.5.3.5	MUX with feedback: oscillation
+42	-	EC.5.3.2	State sequence of T flip-flop circuit
+43	-	EC.1.5.6	Contour integral with double pole
+44	-	EC.2.6.2	Fourier transform of scaled, shifted signal
+45	-	EC.7.4.8	Symbol error probability for 3-level PAM
+46	-	EC.5.4.2	Effective number of bits of ADC
+47	-	EC.7.4.11	CRC-4 encoding
+48	-	EC.2.6.4	Sampled signal through bandpass filter
+49	-	EC.4.3.4	Op-amp integrator/comparator with triangular input
+50	-	EC.4.3.7	RC phase-shift oscillator condition
+51	-	EC.4.2.3	Gain of MOS amplifier with degeneration
+52	-	EC.3.3.3	BJT current gain statements
+53	-	EC.6.6.1	Equivalent state-space realisations
+54	-	EC.1.4.3	Conservative field conditions
+55	-	EC.1.1.5	Eigenvectors of 2x2 matrix
+56	-	EC.2.7	Frequencies with period 40
+57	-	EC.7.4.1	Quantizer SQNR for random process
+58	-	EC.8.3.4	Max input impedance from reflection coefficient
+59	-	EC.2.7.2	Fourfold DFT of sequence
+60	-	EC.2.4.1	Y21 with dependent source
+61	-	EC.3.3.4	MOS capacitor flat-band voltage
+62	-	EC.2.2.3	Max power with dependent source
+63	-	EC.3.1.3	Donor level from ionisation fraction
+64	-	EC.3.3.5	MOSFET transconductance at new bias
+65	-	EC.3.3.9	Solar cell saturation current

@@ -1,0 +1,65 @@
+GA1	-	GA.1.1	Sentence completion (tense)
+GA2	-	GA.3.1	Syllogism: women/entrepreneurs/doctors
+GA3	-	GA.1.2	Word completion (dispel)
+GA4	-	GA.2.4	Most consistent batsman (coefficient of variation)
+GA5	-	GA.3.3	Next number in series
+GA6	-	GA.3.2	Odd one out in letter groups
+GA7	-	GA.3.1	Tax form rules: logical deduction
+GA8	-	GA.2.2	Train crossing platform
+GA9	-	GA.2.1	Trade deficit from bar chart
+GA10	-	GA.2.4	Conditional probability with three coins
+1	-	EC.1.1.4	Matrix property that does not always hold
+2	-	EC.1.6.2	Probability a random child has a sibling
+3	-	EC.1.5.3	Contour integral by Cauchy's formula
+4	-	EC.1.1.5	Positive eigenvalue when A^2 = I
+5	-	EC.1.6.3	P(X1 largest) for iid uniforms
+6	-	EC.2.2.3	Max power transfer impedance condition
+7	-	EC.2.1.1	KCL consistency in network fragment
+8	-	EC.3.3.8	Photodiode photocurrent from responsivity
+9	-	EC.4.1	PN and Schottky diode conduction states
+10	-	EC.3.3.4	Oxide fixed charge effect on threshold voltage
+11	-	EC.4.2	Impedances of a good current buffer
+12	-	EC.4.2	Feedback topology identification	Feedback amplifiers
+13	-	EC.4.3.5	Active low-pass filter: R for cutoff
+14	-	EC.5.2.4	Pass-transistor logic output voltages
+15	-	EC.5.2.2	Boolean expression simplification
+16	-	EC.5.3.2	Cascaded JK flip-flop counter frequency
+17	-	EC.2.7	Periodicity of discrete-time sinusoid
+18	-	EC.2.6.3	Nyquist rate of product of signals
+19	-	EC.2.5.4	Steady-state output from impulse response
+20	-	EC.6.4.3	Gain for repeated closed-loop poles
+21	-	EC.6.3.2	Conclusion from Nyquist plot
+22	-	EC.7.4	Orthogonal users in CDMA	Multiple access (TDMA/CDMA)
+23	-	EC.7.3.4	BSC capacity at p = 0.5
+24	-	EC.8.3.5	S11 of two-port with port 2 shorted
+25	-	EC.8.1	Force on charge near grounded plane (image method)	Electrostatics
+26	-	EC.1.2.8	Taylor series of 3sinx + 2cosx
+27	-	EC.2.6.2	Integral of running integral via Fourier transform
+28	-	EC.1.2.6	Volume under surface over triangle
+29	-	EC.1.1.4	Determinant of I + αJ (exchange matrix)
+30	-	EC.2.4.2	Y to delta conversion
+31	-	EC.2.2.2	Complex power of parallel loads
+32	-	EC.2.2	RMS value of periodic waveform
+33	-	EC.2.3.3	Capacitor for critically damped RLC
+34	-	EC.3.3.3	BJT transconductance from IS and VBE
+35	-	EC.3.3.1	Minority electron concentration in forward-biased diode
+36	-	EC.3.3.5	Depletion MOSFET as voltage-controlled resistor
+37	-	EC.4.3.1	Op-amp series voltage regulator: find R	Voltage regulators
+38	-	EC.4.3.1	Op-amp circuit with current sources
+39	-	EC.4.2.3	BJT CE amplifier voltage gain
+40	-	EC.5.2.1	Logic circuit output (XOR/XNOR/AND)
+41	-	EC.5.2.3	Essential prime implicants
+42	-	EC.5.3.4	Preserve state diagram when XOR replaced
+43	-	EC.2.7.3	ROC of two-sided sequence
+44	-	EC.2.7	Discrete-time Fourier series coefficients
+45	-	EC.1.3.1	First-order ODE step response with initial condition
+46	-	EC.6.6.1	Controllability and observability
+47	-	EC.6.4.2	Phase margin from asymptotic Bode plot
+48	-	EC.6.5.1	Compensator to meet settling time
+49	-	EC.1.6.1	E[X^2] vs (E[X])^2
+50	-	EC.7.1.1	Autocorrelation of random-phase sinusoid
+51	-	EC.7.4.8	BPSK BER with two AWGN channels
+52	-	EC.7.3.1	Entropy of geometric RV (tosses to first head)
+53	-	EC.8.6.1	Dipole far-field: radiated power
+54	-	EC.8.3.2	Parallel-plate line: v and Z vs spacing
+55	-	EC.8.3.4	λ/8 line real input impedance: find R

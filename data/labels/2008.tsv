@@ -1,0 +1,85 @@
+1	-	EC.1.1.5	Zero eigenvalue implies zero determinant
+2	-	EC.1.1.7	Consistency of linear system
+3	-	EC.1.5	Solutions of sin z = 10
+4	-	EC.1.2.5	Minimum of e^x + e^-x
+5	-	EC.1.2.8	Taylor series with only odd powers
+6	-	EC.1.3.1	Solution of first-order ODE
+7	-	EC.2.1	Number of trees and cut-sets of graph	Network graph theory
+8	-	EC.2.3.1	di/dt at t=0+ in RL circuit
+9	-	EC.2.5.2	Identify causal system
+10	-	EC.2.5.3	Stability of two-sided impulse response
+11	-	EC.2.5.6	Filter type from pole-zero plot
+12	-	EC.6.2.1	Poles with equal overshoot
+13	-	EC.3.3.1	Capacitances not associated with pn junction
+14	-	EC.3.1.2	Wafer doping type (p+ substrate)
+15	-	EC.8.6.1	HPBW of Hertz dipole
+16	-	EC.8.1.1	Maxwell's equations for static fields
+17	-	EC.4.1.1	Limiter circuit output range
+18	-	EC.3.3	Dry oxidation rate behaviour	IC fabrication
+19	-	EC.3.3.5	MOSFET transconductance expression
+20	-	EC.7.2.1	Minimum carrier for envelope detection
+21	-	EC.2.1.3	Thevenin impedance of RLC network
+22	-	EC.2.3.3	Component values from driving-point impedance
+23	-	EC.2.3.2	Capacitor voltage with switched current sources
+24	-	EC.1.6.3	CDF from triangular PDF
+25	-	EC.1	Newton-Raphson recursion for x = e^-x	Numerical methods
+26	-	EC.1.5.6	Residue at double pole
+27	-	EC.1.1.4	Matrix exponential e^P
+28	-	EC.1.2.8	Taylor coefficient about x = π
+29	-	EC.1.6.3	PDF normalisation constants
+30	-	EC.1.2.7	Line integral along straight segment
+31	-	EC.2.5.4	Impulse response from poles, zero and DC gain
+32	-	EC.2.6.2	Zeros of Fourier transform of rectangular pulse
+33	-	EC.2.5.5	Discrete convolution: length and y[2]
+34	-	EC.1.2.7	Line integral over semicircle
+35	-	EC.2.5.1	Linearity and time-invariance matching
+36	-	EC.7.3.1	Entropy of equiprobable source
+37	-	EC.2.7.2	DFT of circular autocorrelation
+38	-	EC.6.2.1	Match transfer functions to step responses
+39	-	EC.6.3.1	Closed-loop stability vs parameter
+40	-	EC.6.6.1	State equations from signal flow graph
+41	-	EC.6.3.1	Number of RHP poles (Routh)
+42	-	EC.6.4.1	Transfer function from resonant peak
+43	-	EC.6.5	Op-amp compensator/controller identification
+44	-	EC.4.2.5	Current relation in MOS current mirror
+45	-	EC.3.3.5	gm vs VG in linear region
+46	-	EC.4.3.1	Op-amp with diode feedback: output
+47	-	EC.4.3.5	Op-amp filter type
+48	-	EC.4.2.3	Equivalent gm of cascode pair
+49	-	EC.5.6.1	8085 PCHL instruction result	8085 microprocessor
+50	-	EC.4.3	555 astable capacitor voltage range	Multivibrators and 555 timer
+51	-	EC.3.1.3	Fermi level shift with boron doping
+52	-	EC.3.3	JFET transconductance vs width	JFET
+53	-	EC.4.3.6	Schmitt trigger threshold voltages
+54	-	EC.5.2.4	CMOS logic function
+55	-	EC.3.3.2	Zener effect and tunnelling assertions
+56	-	EC.5.1.2	Signed 2's complement subtraction
+57	-	EC.5.2.1	Boolean relation of gate circuit
+58	-	EC.5.2.7	Output of 4:1 MUX circuit
+59	-	EC.5.3.2	JK flip-flop ripple output waveform
+60	-	EC.5.3.1	Latch output behaviour at clock transition
+61	-	EC.8.4.1	Minimum frequency for TE11 mode
+62	-	EC.8.3.4	Input impedance of shorted line
+63	-	EC.8.2.1	Reflection coefficient at dielectric
+64	-	EC.8.5.1	Single-mode fibre condition
+65	-	EC.8.6	Gain of parabolic dish
+66	-	EC.7.1.4	Noise power at RC filter output
+67	-	EC.7.4.9	Error probability with repetition code
+68	-	EC.7.4.1	TDM minimum bandwidth
+69	-	EC.7.2.2	FM modulation index
+70	-	EC.7.2	Identify AM/FM from signal
+71	-	EC.7.4.1	PCM minimum bandwidth
+72	-	EC.7.4.1	Signal to quantization noise ratio
+73	-	EC.7.4.1	Quantization levels to reduce noise
+74	-	EC.2.3.3	RLC impulse response: capacitor voltage
+75	-	EC.2.3.3	RLC impulse response: resistor voltage
+76	-	EC.2.4.1	Z-parameters from measurements
+77	-	EC.2.4.1	h-parameters from measurements
+78	-	EC.2.7.3	Samples of RC discharge
+79	-	EC.2.7.3	z-transform and ROC of sampled signal
+80	-	EC.4.2.1	BJT DC emitter current
+81	-	EC.4.2.3	Mid-band voltage gain
+82	-	EC.5.4.2	Counter-type ADC reading
+83	-	EC.5.4.2	ADC quantization error
+84	-	EC.2.5.7	Frequency response of first-order system
+85	-	EC.2.5.7	Output for sinusoidal input

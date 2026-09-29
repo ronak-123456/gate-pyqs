@@ -1,0 +1,65 @@
+1	M	EC.4.2.3	BJT small-signal r_pi from base current
+2	M	EC.7.1.2	PSD to mean-square and mean of random process
+3	M	EC.7.4.5	Raised-cosine pulse, max signalling rate without ISI
+4	M	EC.8.2.1	Plane wave reflected from perfect conductor
+5	M	EC.8.2.2	Frequency and polarization of plane wave
+6	M	EC.5.3.1	Race-around condition in flip-flop circuit
+7	M	EC.5.2.5	2-bit magnitude comparator
+8	M	EC.4.1	Diode with piecewise i-v characteristic in circuit
+9	M	EC.2.3.2	Charged capacitor switched to capacitor: impulse current
+10	M	EC.2.2.2	Average power delivered to impedance
+11	M	EC.2.5	Laplace transform property (t·f(t))
+12	M	EC.1.3.1	First-order linear ODE with initial condition
+13	M	EC.4.1.2	Diode-capacitor clamper/doubler voltage
+14	M	EC.5.2.4	Switch/transistor logic circuit output function
+15	M	EC.7.3.1	Entropy change when probabilities perturbed
+16	M	EC.8.3.2	Coaxial cable characteristic impedance
+17	M	EC.8.6	Directivity from radiation pattern
+18	M	EC.2.7.3	ROC of two-sided z-transform
+19	M	EC.5.2.3	Prime implicants of SOP function
+20	M	EC.6.4.1	Frequency at which sinusoidal steady-state output is zero
+21	M	EC.2.1.1	Input impedance of circuit with dependent source
+22	M	EC.2.2.1	Phasor circuit: inductor current
+23	M	EC.1.5.6	Contour integral by residue theorem
+24	M	EC.1.6.8	P(max of two independent uniforms < 1/2)
+25	M	EC.1.5	Value of i^i
+26	M	EC.3.1.3	Minority carrier count in heavily doped region
+27	M	EC.7.4.8	Coherent BPSK error probability with phase offset
+28	M	EC.8.3.4	Quarter-wave matching at two frequencies
+29	M	EC.2.5.1	Time-invariance and stability of integral system
+30	M	EC.6.3.1	Routh: K and a for sustained oscillation
+31	M	EC.2.6.2	h(0) from Fourier transform
+32	M	EC.6.6.1	Controllability/observability of state model
+33	M	EC.2.2.3	Maximum power transfer between AC circuits
+34	M	EC.1.3.1	Second-order ODE with impulse forcing
+35	M	EC.1.4.3	Divergence of radial field r^n
+36	M	EC.1.6.2	Probability first head on odd toss
+37	M	EC.5.2.4	CMOS inverter: region of NMOS vs Vin
+38	M	EC.7.4.6	Optimum (MAP) receiver error on BSC
+39	M	EC.7.2.2	PM vs FM sensitivity for same phase deviation
+40	M	EC.8.4.1	Rectangular waveguide phase velocity
+41	M	EC.4.3.5	Op-amp active filter type and cutoff
+42	M	EC.2.5.5	Discrete convolution: find g[1]
+43	M	EC.5.3.4	State diagram of D-FF + MUX circuit
+44	M	EC.4.2.3	BJT CE amplifier voltage gain
+45	M	EC.4.3.1	Op-amp resistive network node voltages
+46	M	EC.1.2.5	Maximum of cubic on interval
+47	M	EC.1.1.5	A^3 via Cayley-Hamilton
+48	M	EC.2.4.1	Nonreciprocal two-port: load current
+49	M	EC.2.4.1	Two-port: open-circuit voltage
+50	M	EC.3.3.5	MOSFET gate-source overlap capacitance
+51	M	EC.3.3.1	Source-body junction capacitance
+52	M	EC.8.1.1	Ampere's law: field of current-carrying wire
+53	M	EC.8.1.1	Field inside hole drilled in wire (superposition)
+54	M	EC.6.5.1	Condition for lead compensator
+55	M	EC.6.5.1	Frequency of max phase lead
+56	M	GA.2.2	Exponent computation
+57	M	GA.1.1	Sentence completion (tense)
+58	M	GA.1.2	Word completion
+59	M	GA.1.2	Closest meaning (Latitude)
+60	M	GA.1.1	Spot the grammatical error
+61	M	GA.1.3	Passage summary
+62	M	GA.2.2	Currency notes count
+63	M	GA.3.3	Minimum weighings to find heavier bag
+64	M	GA.2.1	Budget table percentage
+65	M	GA.2.4	Meeting probability (geometric)

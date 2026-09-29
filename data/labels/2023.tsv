@@ -1,0 +1,65 @@
+1	-	GA.1.2	Word choice (conscience)
+2	-	GA.1.2	Analogy (courts : judiciary)
+3	-	GA.2.2	Smallest number with distinct digits summing to 45
+4	-	GA.2.2	Set counting with Venn relations
+5	-	GA.4.1	Counting rectangles in figure
+6	-	GA.3.1	Logical deduction (Forestland creatures)
+7	-	GA.2.3	Identify function from graph
+8	-	GA.1.3	Inference from passage
+9	-	GA.2.2	Pooled testing strategy count
+10	-	GA.4.1	Creases after folding sheet
+11	-	EC.1.1.1	Projection coefficient minimising error
+12	-	EC.1.4.3	Directional derivative
+13	-	EC.1.5	Fourth roots of complex number
+14	-	EC.1.5.6	Contour integral by residues
+15	-	EC.1.1.5	Eigenvalues/eigenvectors under similarity
+16	-	EC.3.1.3	Degenerate semiconductor definition
+17	-	EC.3.1.2	Band occupancy at 0 K
+18	-	EC.2.3.3	Series RLC values for given Q
+19	-	EC.3.3.4	MOS depletion width vs gate voltage
+20	-	EC.8.2.3	Phase vs group velocity in dielectric
+21	-	EC.4.2	Identify controlled-source type of amplifier
+22	-	EC.4.3.7	Oscillation condition (Barkhausen)
+23	-	EC.5.2.7	Logic function from 2:1 MUX
+24	-	EC.5.3.3	Throughput and latency of pipeline
+25	-	EC.6.4.1	Phase crossover frequency
+26	-	EC.2.5.1	Causality and time-invariance of x(e^t)
+27	-	EC.7.2.1	Energy of DSB-SC signal
+28	-	EC.2.6.2	Fourier transform of Gaussian
+29	-	EC.2.6	Match signal type to spectral property
+30	-	EC.7.1.2	Valid power spectral densities
+31	-	EC.5.4.2	ADC resolution from SNR
+32	-	EC.2.1.1	Current through resistor
+33	-	EC.2.4.1	Max power load for Y-parameter network
+34	-	EC.5.3.7	Critical path delay of NAND circuit
+35	-	EC.2.3.1	Maximum voltage after switching RL circuit
+36	-	EC.1.6.7	PDF of transformed Gaussian
+37	-	EC.1.2.7	Line integral along straight line
+38	-	EC.1.1.4	Trace of outer product
+39	-	EC.4.3.1	Op-amp instrumentation circuit gain
+40	-	EC.4.1.1	Diode transfer characteristic
+41	-	EC.6.2.2	Ramp steady-state error
+42	-	EC.6.1.4	Two-input block diagram transfer functions
+43	-	EC.6.6.2	State solution via eigenvectors
+44	-	EC.2.3	Capacitor current at t=0+
+45	-	EC.7.2.2	FM through square-law device: min carrier
+46	-	EC.2.4.1	h-parameters for maximum voltage gain
+47	-	EC.2.7	DTFS sum evaluation
+48	-	EC.2.7.1	Output via DTFT product
+49	-	EC.2.5.7	LTI output for single-tone input
+50	-	EC.2.6.3	Nyquist rate after modulation and multiplication
+51	-	EC.8.3.5	S-parameters with added line sections
+52	-	EC.8.3.3	Load from standing-wave measurements
+53	-	EC.8.2.2	Left-hand elliptical polarization conditions
+54	-	EC.8.3.1	Lumped model of line section
+55	-	EC.1.2.6	Double integral over region
+56	-	EC.3.2.3	Mobility ratio for equal drift currents
+57	-	EC.6.4.2	Transfer function orders from Bode plot
+58	-	EC.2.5.5	Area of convolution
+59	-	EC.7.1.4	Output power of filtered white noise
+60	-	EC.8.2.1	Anti-reflection coating thickness
+61	-	EC.3.1.3	Hole concentration at 400 K
+62	-	EC.5.4.1	Sample-and-hold acquisition time
+63	-	EC.5.3.2	Frequency of Q2 in flip-flop circuit
+64	-	EC.4.2.5	Current mirror: load voltage
+65	-	EC.7.3.2	Average number of yes/no questions (Huffman)

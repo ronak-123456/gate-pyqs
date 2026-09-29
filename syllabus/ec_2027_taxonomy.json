@@ -1128,5 +1128,182 @@
         }
       ]
     }
-  ]
+  ],
+  "general_aptitude": {
+    "note": "General Aptitude is common to all GATE papers and is not part of the EC syllabus PDF. The four areas follow the official GA syllabus; topic groupings are derived.",
+    "sections": [
+      {
+        "id": "GA.1",
+        "name": "Verbal Aptitude",
+        "topics": [
+          {
+            "id": "GA.1.1",
+            "name": "Grammar and Usage",
+            "derived": true,
+            "subtopics": [
+              {
+                "id": "GA.1.1.1",
+                "name": "Tenses, articles, prepositions"
+              },
+              {
+                "id": "GA.1.1.2",
+                "name": "Subject-verb agreement"
+              },
+              {
+                "id": "GA.1.1.3",
+                "name": "Sentence correction"
+              }
+            ]
+          },
+          {
+            "id": "GA.1.2",
+            "name": "Vocabulary",
+            "derived": true,
+            "subtopics": [
+              {
+                "id": "GA.1.2.1",
+                "name": "Word meaning, synonyms and antonyms"
+              },
+              {
+                "id": "GA.1.2.2",
+                "name": "Word completion"
+              },
+              {
+                "id": "GA.1.2.3",
+                "name": "Analogies"
+              }
+            ]
+          },
+          {
+            "id": "GA.1.3",
+            "name": "Reading Comprehension",
+            "derived": true,
+            "subtopics": [
+              {
+                "id": "GA.1.3.1",
+                "name": "Passage inference and summary"
+              }
+            ]
+          },
+          {
+            "id": "GA.1.4",
+            "name": "Sentence and Paragraph Ordering",
+            "derived": true,
+            "subtopics": [
+              {
+                "id": "GA.1.4.1",
+                "name": "Coherent sequencing"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "GA.2",
+        "name": "Quantitative Aptitude",
+        "topics": [
+          {
+            "id": "GA.2.1",
+            "name": "Data Interpretation",
+            "derived": true,
+            "subtopics": [
+              {
+                "id": "GA.2.1.1",
+                "name": "Tables, bar charts, pie charts and graphs"
+              }
+            ]
+          },
+          {
+            "id": "GA.2.2",
+            "name": "Arithmetic and Algebra",
+            "derived": true,
+            "subtopics": [
+              {
+                "id": "GA.2.2.1",
+                "name": "Numbers, ratios, percentages, series and equations"
+              }
+            ]
+          },
+          {
+            "id": "GA.2.3",
+            "name": "Geometry and Mensuration",
+            "derived": true,
+            "subtopics": [
+              {
+                "id": "GA.2.3.1",
+                "name": "Lengths, areas, volumes and coordinate geometry"
+              }
+            ]
+          },
+          {
+            "id": "GA.2.4",
+            "name": "Probability and Statistics",
+            "derived": true,
+            "subtopics": [
+              {
+                "id": "GA.2.4.1",
+                "name": "Probability, averages and dispersion"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "GA.3",
+        "name": "Analytical Aptitude",
+        "topics": [
+          {
+            "id": "GA.3.1",
+            "name": "Logical Reasoning",
+            "derived": true,
+            "subtopics": [
+              {
+                "id": "GA.3.1.1",
+                "name": "Deduction, arrangements and relations"
+              }
+            ]
+          },
+          {
+            "id": "GA.3.2",
+            "name": "Classification",
+            "derived": true,
+            "subtopics": [
+              {
+                "id": "GA.3.2.1",
+                "name": "Odd one out"
+              }
+            ]
+          },
+          {
+            "id": "GA.3.3",
+            "name": "Series and Coding",
+            "derived": true,
+            "subtopics": [
+              {
+                "id": "GA.3.3.1",
+                "name": "Number/letter series and coding-decoding"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "GA.4",
+        "name": "Spatial Aptitude",
+        "topics": [
+          {
+            "id": "GA.4.1",
+            "name": "Spatial Reasoning",
+            "derived": true,
+            "subtopics": [
+              {
+                "id": "GA.4.1.1",
+                "name": "Figures, patterns, rotations, reflections and counting"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
 }

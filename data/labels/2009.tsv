@@ -1,0 +1,60 @@
+1	-	EC.1.3	Order of differential equation
+2	-	EC.2.6.1	Fourier series of even/odd functions
+3	-	EC.2.6.1	Frequency components of sin²t + cos2t
+4	-	EC.2.2	Energy delivered by battery
+5	-	EC.3.1.3	Concentrations in n-type silicon
+6	-	EC.5.2.4	Full forms of TTL and CMOS	Logic families (TTL/DTL)
+7	-	EC.2.7.3	ROC of two-sided z-transform
+8	-	EC.6.5.1	Compensator type from magnitude plot
+9	-	EC.7.1.4	Output power of filtered white noise
+10	-	EC.8.4	Cutoff of coaxial/cylindrical/rectangular guides
+11	-	EC.1.6.2	Only first two tosses are heads
+12	-	EC.7.1.1	Autocorrelation shape for sinc² PSD
+13	-	EC.1.5.3	Contour integral on unit circle
+14	-	EC.2.1	Current source value with ideal sources
+15	-	EC.3.2.1	Units of mobility/diffusion ratio
+16	-	EC.5.6	Interrupt type classification	8085 microprocessor
+17	-	EC.2.3.2	Load resistance from transfer function
+18	-	EC.6.6.1	Controllability of state model
+19	-	EC.7.2.1	Identify SSB signal
+20	-	EC.8.1	Magnetic field of two current-carrying wires	Magnetostatics
+21	-	EC.1.6.8	Conditional probability of discrete RVs
+22	-	EC.1.2.8	Taylor series of sin x/(x-π)
+23	-	EC.1.4.4	Stokes' theorem relation
+24	-	EC.2.5	Laplace transform of integral
+25	-	EC.1.3	Families of solution curves of ODEs
+26	-	EC.1.1.5	Eigenvalues of 3x3 matrix
+27	-	EC.2.2.2	Reactive power consumed by load
+28	-	EC.2.3.2	Capacitor network transient current
+29	-	EC.2.2.3	RL for maximum power with dependent source
+30	-	EC.2.3.1	Steady-state RL current
+31	-	EC.4.1	Diode circuit voltage (min/max)
+32	-	EC.3.3.5	MOSFET inversion charge and channel potential
+33	-	EC.4.3.7	Astable multivibrator dependence on R2
+34	-	EC.4.3.1	Op-amp with BJT: feedback type and output
+35	-	EC.4.2.4	BJT amplifier output for two-tone input
+36	-	EC.5.2.2	Boolean equation solution
+37	-	EC.5.2.7	Minimum MUXes for AND and XOR
+38	-	EC.5.3.1	NAND and NOR latch outputs
+39	-	EC.5.3.2	JK flip-flop counter states
+40	-	EC.2.7.4	FIR filter statements
+41	-	EC.2.5.1	Properties of system with given kernel
+42	-	EC.2.7.2	4-point DFT
+43	-	EC.6.4.3	Root locus for negative gain
+44	-	EC.2.6.4	Sampled output of LTI system
+45	-	EC.6.2.1	Second-order system from step response
+46	-	EC.1.6.1	Mean and variance of discrete RV
+47	-	EC.7.2.1	AM power efficiency
+48	-	EC.7.3.4	Capacity with doubled SNR
+49	-	EC.8.1.1	Current distribution from B field
+50	-	EC.8.3.4	Input impedance of branched line
+51	-	EC.3.3.1	Built-in potential of pn junction
+52	-	EC.3.3.1	Peak electric field in pn junction
+53	-	EC.6.3.2	Nyquist plot: system property
+54	-	EC.6.4.1	Gain and phase margins
+55	-	EC.7.4.1	Quantizer step size from SQNR
+56	-	EC.7.4.1	SQNR with non-uniform step sizes
+57	-	EC.5.2.4	CMOS transistor operating regions
+58	-	EC.5.2.4	CMOS output voltage
+59	-	EC.5.2.6	7-segment display segment logic
+60	-	EC.5.2.6	Gates needed for 7-segment driver

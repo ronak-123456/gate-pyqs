@@ -1,0 +1,65 @@
+1	-	EC.8.4.1	Existence of TM10/TE10 modes
+2	-	EC.7.2	Match modulation schemes to attributes
+3	-	EC.6.2.1	Step response of unstable second-order system
+4	-	EC.6.4.1	Nyquist plot of 5 + jω
+5	-	EC.2.6.1	Fourier series of even function
+6	-	EC.5.3.1	Edge detector with D flip-flops
+7	-	EC.5.2.7	Logic function of 4:1 MUX
+8	-	EC.4.3.5	Op-amp filter type with inductor
+9	-	EC.3.3.1	Forward voltage temperature coefficient
+10	-	EC.2.1.4	Norton current of AC network
+11	-	EC.2.2.3	RL for maximum power
+12	-	EC.1.5.2	Contour integral with poles outside
+13	-	EC.8.3.1	Phase velocity on matched line
+14	-	EC.8.1.4	Poynting vector of point source
+15	-	EC.7.3.1	Information rate of quantized samples
+16	-	EC.6.4.3	Transfer function from root locus
+17	-	EC.2.7.3	Stability and causality of sequence
+18	-	EC.2.5.4	Impulse response from step response
+19	-	EC.5.2.1	NAND circuit: majority function
+20	-	EC.4.2.4	Tuned amplifier gain at resonance
+21	-	EC.3.2.2	Drift current dependence
+22	-	EC.3.3.2	Zener diode bias region
+23	-	EC.2.2.1	Output of RC network at ω = 1/RC
+24	-	EC.1.4.4	Divergence theorem with position vector
+25	-	EC.1.3.1	Solution of dy/dx = ky
+26	-	EC.8.2.4	Permittivity and amplitude of TEM wave
+27	-	EC.7.2.1	Envelope detector time constant
+28	-	EC.6.6.1	State model of one-input two-output system
+29	-	EC.2.7.3	Inverse system for unit delay
+30	-	EC.5.6.1	8085 program: accumulator contents	8085 microprocessor
+31	-	EC.2.7.2	Conjugate symmetry of DFT
+32	-	EC.4.2.1	BJT leaves active region after switch opens
+33	-	EC.2.4.1	Voltage gain with Y-parameter network
+34	-	EC.2.3.2	RC transient with charged capacitor
+35	-	EC.1.1.7	No-solution condition of linear system
+36	-	EC.1.6.2	Second die toss higher than first
+37	-	EC.8.1.2	Boundary condition with surface current
+38	-	EC.8.3.3	Load impedance from VSWR
+39	-	EC.7.1.4	Output PSD of differentiator-difference system
+40	-	EC.5.4.3	Johnson counter with DAC waveform
+41	-	EC.5.3.2	D flip-flop inputs for counter sequence
+42	-	EC.3.3.5	Source voltage of stacked NMOS
+43	-	EC.2.5.5	Output by convolution with step
+44	-	EC.3.3.3	Collector current with ICO
+45	-	EC.2.5	Initial and final value theorems
+46	-	EC.2.2.1	Current in AC bridge circuit
+47	-	EC.1	Newton-Raphson step	Numerical methods
+48	-	EC.3.3	JFET channel resistance at VGS = 0	JFET
+49	-	EC.3.3	JFET channel resistance at VGS = -3 V	JFET
+50	-	EC.6.1.5	Signal flow graph not modelling plant
+51	-	EC.6.4.1	Gain margin of closed-loop system
+52	-	EC.7.4.3	Radii of 4- and 8-PSK constellations
+53	-	EC.7.4.8	Extra energy for 8-PSK vs 4-PSK
+54	-	EC.4.1	Diode string bias current
+55	-	EC.4.1	AC output across diodes (small signal)
+56	-	GA.1.2	Word-pair analogy
+57	-	GA.2.2	Election vote percentages
+58	-	GA.1.2	Word completion (exacerbated)
+59	-	GA.1.2	Antonym of 'frequency'
+60	-	GA.1.2	Word completion (available)
+61	-	GA.1.3	Inference from passage
+62	-	GA.2.1	Fuel consumption graph
+63	-	GA.2.2	Toffees remaining in bowl
+64	-	GA.2.2	Value of |f(q) - f(-q)|
+65	-	GA.2.2	Sum of series 4+44+444+...

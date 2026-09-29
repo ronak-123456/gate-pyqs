@@ -1,0 +1,65 @@
+GA1	-	GA.1.1	Subject-verb agreement
+GA2	-	GA.1.1	Preposition usage (at dawn)
+GA3	-	GA.2.2	Machines working together
+GA4	-	GA.2.2	Arrangements of books
+GA5	-	GA.1.2	Word completion (pictured)
+GA6	-	GA.3.1	Seating/profession arrangement
+GA7	-	GA.2.1	Literacy bar and pie charts
+GA8	-	GA.1.3	Inference from passage
+GA9	-	GA.2.2	Consultant hours and payment
+GA10	-	GA.3.1	Office floor-plan arrangement
+1	-	EC.1.5.1	Function analytic over entire plane
+2	-	EC.1.3	Families of curves from ODE
+3	-	EC.2.7.3	Zeros of H(z)H(1/z)
+4	-	EC.2.1.5	Reciprocity in resistive two-port
+5	-	EC.6.2.1	Forced response of causal system
+6	-	EC.6.4.2	Poles and zeros from Bode plot
+7	-	EC.7.4.10	Linear Hamming code mapping
+8	-	EC.3.1.2	Band diagram of pnn+p++ structure
+9	-	EC.3.3.3	Circuit model of BJT structure
+10	-	EC.3.3.4	MOS C-V curve: flat-band, inversion, accumulation
+11	-	EC.8.1.1	Flux through quarter cylinder (Gauss)
+12	-	EC.8.1.1	Match Maxwell's equations
+13	-	EC.5.2.4	CMOS inverter noise margins vs pMOS width
+14	-	EC.5.2.4	Tri-state CMOS buffer output
+15	-	EC.5.2.4	Pass-transistor circuit function (XNOR)
+16	-	EC.1.5.6	Contour integral of (z+1/z)²
+17	-	EC.1.1.5	Distinct eigenvalues of triangular matrix
+18	-	EC.1.6.1	E[X]+E[Y] from linear expectations
+19	-	EC.1.2.6	Double integral by changing order
+20	-	EC.1.6.6	Memoryless property of exponential
+21	-	EC.2.6.1	Fundamental period of sum of sinusoids
+22	-	EC.7.2.2	PM instantaneous frequency ratio
+23	-	EC.8.6.1	Radiation resistance change of short dipole
+24	-	EC.4.1	Average load voltage with diode network
+25	-	EC.5.3.2	Frequency at Q2 of flip-flop circuit
+26	-	EC.1.2.1	Bound on f(x) from derivative (MVT)
+27	-	EC.1.4.4	Line integral via Green's theorem
+28	-	EC.2.7.2	Six-point DIT FFT coefficients
+29	-	EC.2.7.4	Three-tap FIR filter nulling input
+30	-	EC.2.2.1	Steady-state current in RC network
+31	-	EC.6.2.1	Time to reach 94% of final value
+32	-	EC.6.1.4	Transfer function from block diagram
+33	-	EC.6.6.1	State model for given transfer function
+34	-	EC.7.4.8	Equal BER for different signal sets
+35	-	EC.3.3.8	Photodetector responsivity vs quantum efficiency
+36	-	EC.8.1	Magnetic field between parallel wires	Magnetostatics
+37	-	EC.8.4	Phase velocity from waveguide dispersion
+38	-	EC.4.1	Zener regulator input voltage range
+39	-	EC.5.3.4	State diagram of D-FF with MUX
+40	-	EC.3.3.5	Pass-transistor output voltages (Vt drop)
+41	-	EC.2.3.2	RC circuit with time-varying resistance
+42	-	EC.6.3.1	K for two jω-axis poles
+43	-	EC.1.3.2	Euler-Cauchy equation boundary values
+44	-	EC.2.7.4	Optimal truncated FIR approximation
+45	-	EC.7.1.4	Output power of filtered noise plus process
+46	-	EC.7.4.1	Bit rate for digitized AM signal
+47	-	EC.7.4.6	Minimum error probability with uniform noise
+48	-	EC.3.1.2	Germanium absorption: layer thickness
+49	-	EC.3.3.1	Reverse bias for 75% of saturation current
+50	-	EC.3.3.5	MOSFET drain saturation current
+51	-	EC.8.4.1	Waveguide aspect ratio from cutoffs
+52	-	EC.4.1	Capacitor voltage via diode with square wave
+53	-	EC.5.2.4	CMOS inverter W/L ratio for VM = VDD/2
+54	-	EC.4.2.3	CS amplifier with current-mirror load: gain
+55	-	EC.4.2.6	Differential pair with mirror: output current

@@ -1,0 +1,65 @@
+GA1	-	GA.1.2	Homophones (piece, peace)
+GA2	-	GA.1.2	Word pair completion
+GA3	-	GA.2.2	Divisibility by 3: missing digit
+GA4	-	GA.2.2	Sum of geometric series
+GA5	-	GA.2.3	Lamp post height from shadow
+GA6	-	GA.2.2	Compound interest present value
+GA7	-	GA.2.2	Alloy mixture ratio
+GA8	-	GA.1.3	Passage inference (leadership)
+GA9	-	GA.2.4	Bayes: colour of cab
+GA10	-	GA.1.3	Passage inference (coastal region)
+1	-	EC.4.2.3	Transconductance of cascode MOS pair
+2	-	EC.4.3.4	Op-amp integrator with Zener: crossing time
+3	-	EC.4.2	Ideal transimpedance amplifier impedances
+4	-	EC.2.5.1	Identify non-linear system
+5	-	EC.6.3	Nyquist vs Routh: false statement
+6	-	EC.1.2	Number of real roots of cubic
+7	-	EC.3.3.1	pn junction at equilibrium: false statement
+8	-	EC.5.2.4	Logic function of MOS circuit
+9	-	EC.5.2.1	POS form of SOP function
+10	-	EC.8.3.6	Points on Smith chart
+11	-	EC.1.1.5	Eigenvector independence implications
+12	-	EC.1.2.4	Relation from equal partial derivatives
+13	-	EC.2.5.6	Discrete all-pass pole-zero pairs
+14	-	EC.2.6.1	Fourier coefficients with 4x period
+15	-	EC.7.2.1	Message-to-carrier power ratio in AM
+16	-	EC.7.4.9	Max codewords with min distance 2
+17	-	EC.7.4.8	Error probability with triangular noise
+18	-	EC.3.3.1	Forward voltage for reduced depletion width
+19	-	EC.5.3.4	Traffic light FSM states
+20	-	EC.3.3	Photolithography feature size vs wavelength	IC fabrication
+21	-	EC.8.3.1	Attenuation of distortionless line
+22	-	EC.1.1.7	k for infinitely many solutions
+23	-	EC.1.6.7	P(X4 smallest) for iid Gaussians
+24	-	EC.1.2.8	Taylor coefficient of integral function
+25	-	EC.2.4.1	ABCD parameter B
+26	-	EC.4.1	Zener regulator: input voltage range
+27	-	EC.7.2.1	AM generation with square-law device
+28	-	EC.7.1.4	Output power of filtered white noise
+29	-	EC.6.6.1	Transfer function from state model
+30	-	EC.3.3.7	Built-in voltages of R, G, B LEDs
+31	-	EC.5.2.7	Function from two 4:1 MUXes
+32	-	EC.5.5.1	Diode ROM array read-out
+33	-	EC.8.2.5	Distance for 20 dB attenuation (skin depth)
+34	-	EC.1.3	Homogeneous first-order ODE
+35	-	EC.2.2.1	Capacitor voltage in AC circuit
+36	-	EC.2.3.1	RL loop current after switching
+37	-	EC.3.3.1	Diode small-signal resistance and capacitance
+38	-	EC.4.3.1	Op-amp node voltage
+39	-	EC.2.6.2	Energy after Hilbert transform
+40	-	EC.7.4.6	MAP detector threshold
+41	-	EC.6.4.1	Gain for given resonant peak
+42	-	EC.6.4.2	Max gain for stability from Bode plots
+43	-	EC.3.3.5	Stacked NMOS with different W/L
+44	-	EC.3.3.9	Solar cell Voc at reduced intensity
+45	-	EC.3.1.3	Built-in potential of p-p+ junction
+46	-	EC.5.3.1	D flip-flop sampling with XOR: average output
+47	-	EC.5.2.4	Wired logic with open-drain gates
+48	-	EC.8.4.1	Guide wavelength of rectangular waveguide
+49	-	EC.8.2.1	Brewster angle: relative permittivity
+50	-	EC.1.3.8	Second-order IVP value at t = π
+51	-	EC.1.5.3	Contour integral around given contour
+52	-	EC.1.2.4	Partial derivative with implicit constraint
+53	-	EC.2.1.1	Source current in resistive network
+54	-	EC.2.6.4	Minimum sampling rate with practical filter
+55	-	EC.2.7.2	Sum of even samples from DFT

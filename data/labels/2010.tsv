@@ -1,0 +1,65 @@
+1	-	EC.1.1.5	Eigenvalues of skew-symmetric matrix
+2	-	EC.2.6.1	Fourier series terms of waveform
+3	-	EC.1.3.8	ODE with boundary conditions
+4	-	EC.2.4.1	Y-parameters of resistive two-port
+5	-	EC.2.3.3	Parallel RLC: incorrect statement
+6	-	EC.3.2.3	Inversion-layer electron mobility
+7	-	EC.3.3	Thin gate oxide growth method	IC fabrication
+8	-	EC.4.2.5	BJT current mirror with area ratio
+9	-	EC.4.2.3	Effect of removing emitter bypass capacitor
+10	-	EC.4.3.1	Op-amp amplifier voltage gain
+11	-	EC.5.2.1	Match equivalent logic gates
+12	-	EC.5.2.1	Input combination for output 1
+13	-	EC.5.2.8	Decoder address range	Memory interfacing
+14	-	EC.2.7.3	Inverse z-transform of finite sequence
+15	-	EC.2.5.5	Cascade of delay systems
+16	-	EC.2.7.2	FFT algorithm statements
+17	-	EC.6.1.4	Transfer function from block diagram
+18	-	EC.2.5.7	System parameter from sinusoidal response
+19	-	EC.6.4.2	Transfer function from Bode plot
+20	-	EC.7.2.1	Conventional AM without overmodulation
+21	-	EC.7.2.2	Average power of angle-modulated signal
+22	-	EC.8.3.5	Lossless/reciprocal from S-matrix
+23	-	EC.8.3.1	Attenuation of distortionless line
+24	-	EC.7.4.7	Matched filter impulse response
+25	-	EC.8.1.4	Time-average power density in dielectric
+26	-	EC.1.2.5	Maximum of x^(1/x)
+27	-	EC.1.6.4	More heads than tails in four tosses
+28	-	EC.1.2.7	Line integral around rectangle
+29	-	EC.1.5.6	Residues at poles
+30	-	EC.1	Euler method for ODE	Numerical methods
+31	-	EC.2.5	Final value theorem: find K
+32	-	EC.2.3.1	RL transient current
+33	-	EC.2.2.1	Current in resonant phasor circuit
+34	-	EC.2.1.1	Power supplied by voltage source
+35	-	EC.3.3.3	BJT doping for high injection efficiency
+36	-	EC.3.3.1	Heavily doped junction: breakdown and capacitance
+37	-	EC.5.3.3	Shift register with XOR feedback: sequence
+38	-	EC.4.1	Precision rectifier transfer characteristic
+39	-	EC.5.2.7	Boolean function of 4:1 MUX circuit
+40	-	EC.5.6.1	8085 program: accumulator contents	8085 microprocessor
+41	-	EC.2.5	LTI response by Laplace transform
+42	-	EC.2.7.3	Stability and causality vs ROC
+43	-	EC.2.6.3	Nyquist rate of product of sincs
+44	-	EC.6.2.2	Controller for minimum steady-state error
+45	-	EC.7.1.4	PSD through delay-add-differentiate system
+46	-	EC.8.2.1	Reflected magnetic field at dielectric
+47	-	EC.8.3.3	VSWR on line with stub and transformer
+48	-	EC.4.2.3	CE amplifier: resistance seen by source
+49	-	EC.4.2.4	Lower cutoff due to coupling capacitor
+50	-	EC.6.6.1	State model from signal flow graph
+51	-	EC.6.1.5	Transfer function from signal flow graph
+52	-	EC.3.2.2	Electric field in biased silicon bar
+53	-	EC.3.2.2	Electron drift current density
+54	-	EC.7.4.8	Noise pdf parameter from variance
+55	-	EC.7.4.8	Bit error probability with Laplacian noise
+56	-	GA.1.2	Closest meaning (circuitous)
+57	-	GA.1.2	Word-pair analogy
+58	-	GA.1.2	Word completion (conserve)
+59	-	GA.1.2	Word completion (betrayed)
+60	-	GA.2.2	Set counting (hockey and football)
+61	-	GA.1.3	Passage meaning
+62	-	GA.3.3	Arithmetic in different base
+63	-	GA.2.2	Work with skilled/unskilled workers
+64	-	GA.2.2	Counting 4-digit numbers from digits
+65	-	GA.3.1	Birth order of siblings

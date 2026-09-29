@@ -1,0 +1,65 @@
+1	-	GA.1.2	Word completion (memento)
+2	-	GA.1.2	Word completion (frogs croak)
+3	-	GA.1.2	Word similar in meaning (educe)
+4	-	GA.2.2	Custom operators evaluation
+5	-	GA.2.2	Logarithm: find base
+6	-	GA.1.1	Most effective phrasing of sentence
+7	-	GA.1.3	Paragraph: correct statement
+8	-	GA.3.3	Missing value in number pattern
+9	-	GA.4.1	Visible vs hidden faces of small cubes
+10	-	GA.3.1	Logical inference (Humpty Dumpty)
+11	-	EC.1.1.7	k for infinitely many solutions
+12	-	EC.1.2.1	Mean value theorem point
+13	-	EC.1.6.8	Independent events: false statement
+14	-	EC.1.5	Contour integration/analyticity: false statement
+15	-	EC.1.1.5	Parameter so that vector is eigenvector
+16	-	EC.2.3.3	Capacitor voltage at series resonance
+17	-	EC.2.1	Equivalent resistance of symmetric network
+18	-	EC.2.1.1	Node voltages with dependent source
+19	-	EC.3.3.1	Negative differential resistance (tunnel diode)
+20	-	EC.3.2.3	Resistivity of doped silicon
+21	-	EC.4.1.3	Output waveform of diode circuit
+22	-	EC.4.1	Zener diode circuit output voltage
+23	-	EC.2.3.2	Energy drawn from source charging capacitor
+24	-	EC.5.6	8085 registers for result and overflow	8085 microprocessor
+25	-	EC.5.5	Row-decoder address lines for square memory array
+26	-	EC.5.4.3	4-bit DAC full-scale output
+27	-	EC.2.5.5	Convolution with shifted impulse
+28	-	EC.2.6	Average power of time-scaled periodic signal
+29	-	EC.6.1.2	Effects of negative feedback
+30	-	EC.6.4.3	Gain where root locus crosses jω axis
+31	-	EC.6.4.1	Quadrant of polar plot
+32	-	EC.7.4.2	Delta modulator slope overload
+33	-	EC.7.2.1	SSB signal via Hilbert transform
+34	-	EC.8.1.1	H field of infinite line current vs r
+35	-	EC.8.2.4	Wavelength in lossless dielectric
+36	-	EC.1.3.8	Second-order ODE initial value problem
+37	-	EC.1.4.3	Solenoidal/irrotational test
+38	-	EC.1.2.5	Graph of e^-x(x^2+x+1)
+39	-	EC.1.2.5	Max-area rectangle inscribed in ellipse
+40	-	EC.2.3.3	Damping ratio of series RLC
+41	-	EC.2.3.2	Capacitor voltage in RC transient
+42	-	EC.2.2.3	Maximum power to resistive load
+43	-	EC.3.3.1	Junction capacitance vs reverse bias
+44	-	EC.3.3.5	MOSFET output resistance (λ)
+45	-	EC.3.3.1	Injected hole current density in diode
+46	-	EC.5.2.1	Canonical POS form
+47	-	EC.5.3.5	Glitch duration due to gate delays
+48	-	EC.5.2.1	Majority-gate composition
+49	-	EC.3.3.5	Diode-connected NMOS current vs source voltage
+50	-	EC.4.3.1	Op-amp driven bridge output
+51	-	EC.4.3.7	Wien-bridge oscillator frequency and condition
+52	-	EC.3.3.3	VBE difference of diode-connected BJTs vs temperature
+53	-	EC.2.7.2	DFT matrix relation between sequences
+54	-	EC.2.7.3	Poles of discrete-time system from diagram
+55	-	EC.2.7.3	Impulse response property from pole-zero plot
+56	-	EC.6.4.3	Gain for point on root locus
+57	-	EC.6.5.1	Lead compensator RC value
+58	-	EC.6.3.1	Stability condition with PI controller
+59	-	EC.7.3	BSC posterior probability
+60	-	EC.7.4	GSM/TDMA bandwidth	Multiple access (TDMA/CDMA)
+61	-	EC.7.2.1	Max bandwidth for AM via square-law device
+62	-	EC.7.4.6	Minimum decision error probability
+63	-	EC.8.4.1	Identify waveguide mode
+64	-	EC.8.1.4	Power through square area (Poynting)
+65	-	EC.8.2.4	Transmitted field in lossy dielectric

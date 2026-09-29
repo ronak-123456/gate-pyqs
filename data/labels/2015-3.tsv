@@ -1,0 +1,65 @@
+1	-	GA.1.1	Sentence completion (should have practised)
+2	-	GA.1.2	One-word substitute (viaticum)
+3	-	GA.1.2	Correct verb (alternate)
+4	-	GA.3.3	Missing term in letter series
+5	-	GA.2.2	Inequalities that must hold for x>y>1
+6	-	GA.1.1	Correct usage: between you and me
+7	-	GA.1.4	Arrange sentences into passage
+8	-	GA.2.3	Cone from circular sheet: radius/height
+9	-	GA.2.2	Sum of log tan values
+10	-	GA.3.1	Logical inference about travel dates
+11	-	EC.1.1.4	Determinant of A^T A^-1
+12	-	EC.1.2.4	Contour where partial derivatives equal
+13	-	EC.1.5.3	Contour integral of (z-z0)^-(n+1)
+14	-	EC.1.2.3	Area under e^-t sin(2πt)u(t)
+15	-	EC.1.5.4	Sum of series n(1/2)^n
+16	-	EC.2.1.3	Thevenin voltage
+17	-	EC.2.1.1	Node voltage with dependent sources
+18	-	EC.2.2.1	Output at very high frequency
+19	-	EC.3.3	Process for gate oxide (dry oxidation)	IC fabrication
+20	-	EC.3.3.3	Effect of doubling BJT base width
+21	-	EC.4.2.1	PNP bias: find VEC
+22	-	EC.4.3.5	Active filter 3-dB cutoff
+23	-	EC.4.1.2	Clamper-peak detector average voltage
+24	-	EC.5.3.2	JK counter with asynchronous reset
+25	-	EC.5.2.4	Diode logic gate identification	Logic families (TTL/DTL)
+26	-	EC.5.6.1	8085 multiplication program	8085 microprocessor
+27	-	EC.2.5.4	Impulse response from step response
+28	-	EC.2.7.4	Moving-average filter null at DC
+29	-	EC.6.4.2	Bode plot corner frequencies
+30	-	EC.6.4.2	Phase margin of G(s)=10/s(s+10)
+31	-	EC.6.5.1	Condition for phase-lead compensator
+32	-	EC.7.4.3	GSM modulation scheme (GMSK)
+33	-	EC.7.2.2	Bandwidth of PM signal
+34	-	EC.8.6.3	Array directivity vs number of elements
+35	-	EC.8.3.1	Lumped model of lossless coax
+36	-	EC.1	Newton-Raphson first iteration	Numerical methods
+37	-	EC.1.6.1	Expected throws until first '3'
+38	-	EC.1.3.8	Second-order ODE with boundary values
+39	-	EC.1.4.4	Flux through cylinder (divergence theorem)
+40	-	EC.2.2.1	Capacitor value for zero current
+41	-	EC.2.4.1	ABCD parameters of T network
+42	-	EC.6.6.1	Transfer function from state model
+43	-	EC.3.3.1	pn junction field profile: false statement
+44	-	EC.3.3.5	Channel-length modulation parameter
+45	-	EC.3.3.3	Max emitter current with β variation
+46	-	EC.5.3.3	LFSR pseudo-random generator output
+47	-	EC.5.2.1	Identify universal gate
+48	-	EC.5.3.1	Fix non-working SR latch
+49	-	EC.4.3.1	Op-amp T-network feedback gain
+50	-	EC.4.2.1	Min VDD for MOSFET saturation
+51	-	EC.4.1.3	Average voltage in two-diode circuit
+52	-	EC.2.7.3	Causality from pole locations and ROC
+53	-	EC.2.7.3	Step response of discrete system realisation
+54	-	EC.2.7	DFS coefficient value
+55	-	EC.2.6.3	Nyquist rate of periodic sinc train
+56	-	EC.6.2.2	Steady-state response to disturbance (DC motor)
+57	-	EC.6.4.3	Gain for point on root locus
+58	-	EC.6.3.1	Roots in left half-plane (Routh)
+59	-	EC.2.7	Energy of sequences: find α
+60	-	EC.1.6.3	Variance from pdf
+61	-	EC.7.2.1	Complex envelope of bandpass signal
+62	-	EC.7.1.1	Autocorrelation of random binary wave
+63	-	EC.8.3.4	Input impedance of shorted line
+64	-	EC.8.3.1	Transmission line transient: find RL
+65	-	EC.8.3.2	Coaxial capacitance per unit length

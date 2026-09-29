@@ -1,0 +1,65 @@
+GA1	-	GA.1.3	Fact that best supports a claim
+GA2	-	GA.1.2	Word completion (depreciated)
+GA3	-	GA.1.1	Part of speech of 'advice'
+GA4	-	GA.3.3	Next term in geometric series
+GA5	-	GA.3.1	Inequality chain: P < M definitely true
+GA6	-	GA.3.3	Alphanumeric sequence
+GA7	-	GA.2.1	Hierarchical pie chart conclusions
+GA8	-	GA.2.2	Boat and stream speed
+GA9	-	GA.2.1	Cost pie chart interpretation
+GA10	-	GA.2.4	Probability batch of bulbs accepted
+1	-	EC.1.2.5	Maximum of ln(1+x) - x
+2	-	EC.1.3.1	Identify linear non-homogeneous ODE
+3	-	EC.1	Match applications to numerical methods	Numerical methods
+4	-	EC.1.6.4	Fourth head on tenth toss
+5	-	EC.1.2.4	Partial derivatives of xy ln(xy)
+6	-	EC.2.3.2	RC charging current waveform
+7	-	EC.2.1.1	Current in resistive circuit
+8	-	EC.3.3	Step that defines MOSFET channel length	IC fabrication
+9	-	EC.3.2.4	Recombination rate dependence
+10	-	EC.3.2.1	Hole diffusion constant (Einstein relation)
+11	-	EC.4.2	Ideal transconductance amplifier impedances
+12	-	EC.4.2.1	PNP bias: RC for given output
+13	-	EC.4.1.3	Half-wave rectifier average diode current
+14	-	EC.5.4.2	Maximum quantization error of 4-bit ADC
+15	-	EC.5.3.1	Identify latch-based flip-flop
+16	-	EC.5.2.7	Boolean function of MUX circuit
+17	-	EC.2.6.4	Aliasing after sampling and reconstruction
+18	-	EC.2.5.6	All-pass system pole-zero relation
+19	-	EC.2.6.3	Minimum sampling rate for bandpass signal
+20	-	EC.6.1.4	Block diagram transfer function
+21	-	EC.2.5.6	Output with pole-zero cancellation
+22	-	EC.2.5.8	Propagation delay from phase response
+23	-	EC.7.2.2	Maximum frequency deviation of FM signal
+24	-	EC.8.4.1	Cutoff of TE21 mode
+25	-	EC.8.3.3	Distortion due to impedance mismatch
+26	-	EC.1.2.5	Maximum of cubic on interval
+27	-	EC.1.1.5	False statement about eigenvalues
+28	-	EC.1.6.1	Expected tosses until both faces appear
+29	-	EC.1.6.3	P(X1 + X2 <= X3) for uniforms
+30	-	EC.2.3.4	Transfer function of cascaded RC networks
+31	-	EC.2.2.1	Node voltage in phasor circuit
+32	-	EC.2.1.4	Frequency for resistive Norton impedance
+33	-	EC.2.4.2	Y to delta conversion
+34	-	EC.3.3.1	Built-in potential and depletion width
+35	-	EC.3.3.5	MOSFET sqrt(ID) slope in saturation
+36	-	EC.3.3.4	MOS capacitor gate voltage from depletion
+37	-	EC.4.2.1	BJT region for different RC
+38	-	EC.4.3.1	Op-amp output in terms of V1, V2
+39	-	EC.3.3.5	Vin at saturation-to-linear transition
+40	-	EC.5.5.2	Identify SRAM cell
+41	-	EC.5.2.7	Output of two 4:1 MUX circuit
+42	-	EC.5.2.5	Half-subtractor using 2:1 MUXes
+43	-	EC.2.7.3	Parameter for zero on unit circle
+44	-	EC.2.5.3	Stability/causality statements
+45	-	EC.2.7.3	Inverse z-transform value x[2]
+46	-	EC.6.2.2	Steady-state error for step input
+47	-	EC.6.6.2	State response by linearity
+48	-	EC.6.4.3	Transfer function from root locus
+49	-	EC.7.1.2	PSD of time-scaled process
+50	-	EC.7.1.4	Power of modulated process after BPF
+51	-	EC.7.4.1	PCM minimum data rate
+52	-	EC.7.3.1	Entropy of outputs of cascaded BSCs
+53	-	EC.1.4.3	Magnitude of curl
+54	-	EC.8.1.2	Tangential H from surface current
+55	-	EC.8.2.1	Angle of transmission into dielectric

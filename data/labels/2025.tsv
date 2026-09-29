@@ -1,0 +1,65 @@
+1	-	GA.1.2	Word intensity analogy
+2	-	GA.1.1	Conditional sentence completion
+3	-	GA.2.2	Frequency ratio of musical notes
+4	-	GA.3.3	Curve length after n iterations
+5	-	GA.2.3	Plot of -|x|/x
+6	-	GA.1.4	Sequence sentences into paragraph
+7	-	GA.2.3	Condition for triangle from broken stick
+8	-	GA.3.1	Musical chairs positions
+9	-	GA.2.1	Medal table: incorrect statement
+10	-	GA.2.2	Consultancy overhead calculation
+11	-	EC.1.1.6	Rank conditions of 4x4 matrix
+12	-	EC.1.5.4	Convergence of three series
+13	-	EC.1.6.2	Drawing balls of different colours
+14	-	EC.7.2.2	Peak frequency deviation of FM
+15	-	EC.7.3.4	AWGN capacity vs bandwidth plot
+16	-	EC.6.4.1	Gain/phase crossover from Nyquist plot
+17	-	EC.2.5.1	Properties of interconnected discrete system
+18	-	EC.2.6.2	Bound on Fourier transform magnitude
+19	-	EC.2.1.1	Node voltage using KCL
+20	-	EC.2.2.1	Branch currents from admittances
+21	-	EC.4.2.3	BJT small-signal voltage gain
+22	-	EC.4.2.1	BJT bias: VCE
+23	-	EC.5.2.1	Majority gate Boolean expression
+24	-	EC.5.2.5	Full adder with XOR: function
+25	-	EC.1.2.5	Global/local extrema of cubic
+26	-	EC.6.4.3	K for pole at given location
+27	-	EC.2.7.3	z-transform/ROC statements
+28	-	EC.7.2.1	DSB-SC vs AM comparisons
+29	-	EC.4.3	Ideal op-amp properties
+30	-	EC.4.2	MOSFET amplifier configurations: input/output resistance
+31	-	EC.3.1.2	n-type dopants for silicon
+32	-	EC.1.3.2	Euler-Cauchy equation: maximum value
+33	-	EC.7.4.9	Minimum Hamming distance of block code
+34	-	EC.4.3.5	Band-pass filter upper cutoff
+35	-	EC.5.4.3	Weighted-resistor DAC output change
+36	-	EC.6.5.2	Controller existence statements (I, PD)
+37	-	EC.6.3.1	Root distribution of polynomial (Routh)
+38	-	EC.2.6.4	Sampling with offset: reconstruction
+39	-	EC.2.2.1	Capacitor value for given meter readings
+40	-	EC.2.4.1	Z-parameters of network
+41	-	EC.7.4.6	ML decoding error for 3-level signal
+42	-	EC.7.1.1	Statements on random pulse process
+43	-	EC.4.2.6	Differential pair output
+44	-	EC.5.4.2	ADC SNR and data rate
+45	-	EC.5.3.1	Output sequence of sequential circuit
+46	-	EC.3.2.3	Intrinsic resistivity
+47	-	EC.4.2.5	Current mirror with Zener: resistor values
+48	-	EC.3.2.1	Electron diffusivity (Einstein relation)
+49	-	EC.8.1	Total charge on sheet with varying density	Electrostatics
+50	-	EC.3.2.2	Current in copper wire from field
+51	-	EC.1.2.2	Bounds on definite integral
+52	-	EC.1.5.2	Contour integrals on unit circle
+53	-	EC.6.6.1	Controllability and observability
+54	-	EC.7.3.1	Entropy of ternary RV vs α
+55	-	EC.2.6.1	Fourier series of time-scaled signal
+56	-	EC.6.1.5	Signal flow graphs of block diagram
+57	-	EC.4.1.1	Diode clipper transfer characteristics
+58	-	EC.1.6.1	Expected sum of two dice
+59	-	EC.1.1.1	Least-squares projection distance
+60	-	EC.7.3.3	Mutual information from joint pmf
+61	-	EC.4.1	Diode conduction duration
+62	-	EC.5.3.6	Maximum clock frequency with setup time
+63	-	EC.3.3.1	Forward voltage for given current
+64	-	EC.8.3.3	Power delivered to mismatched load
+65	-	EC.8.1.1	Induced EMF in loop (Faraday's law)

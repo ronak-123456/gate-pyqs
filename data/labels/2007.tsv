@@ -1,0 +1,85 @@
+1	-	EC.1.6.1	Variance formula
+2	-	EC.1.2.3	Integral of linear function from graph
+3	-	EC.1.2.8	Approximation of coth(x) for small x
+4	-	EC.1.2	Limit of sin(θ/2)/θ
+5	-	EC.1.2	Strictly bounded function
+6	-	EC.1.2.8	Linear approximation of e^-x
+7	-	EC.2.2.3	Condition for maximum power transfer
+8	-	EC.2.3.2	Identify RC filter type
+9	-	EC.3.1.3	Electron concentration in p-type semiconductor
+10	-	EC.3.3.1	Location of peak field in reverse-biased p+n
+11	-	EC.4.1.3	Correct bridge full-wave rectifier
+12	-	EC.4.2	Transconductance amplifier resistances
+13	-	EC.5.1.2	Two's complement addition
+14	-	EC.5.2.1	Minimum NAND gates for AB + CD
+15	-	EC.2.5.6	Non-minimum phase system
+16	-	EC.2.5	Final value theorem applicability
+17	-	EC.7.1.1	Autocorrelation properties
+18	-	EC.7.1.2	PSD properties
+19	-	EC.8.2	Plane wave expression for direction
+20	-	EC.8.1.1	Maxwell's equation in integral form
+21	-	EC.1.1.1	Dimension of span of vectors
+22	-	EC.1.2.5	Maximum of quadratic on interval
+23	-	EC.1.6.8	Conditional probability of failing
+24	-	EC.1.3.8	Second-order ODE with boundary conditions
+25	-	EC.1	Newton-Raphson iteration	Numerical methods
+26	-	EC.2.6	Orthogonality of signals
+27	-	EC.1.5.6	Contour integral over semicircle
+28	-	EC.2.3.3	Bandwidth ratio of series resonant filters
+29	-	EC.2.1.3	Thevenin equivalent with dependent source
+30	-	EC.2.3.2	Capacitor current in RC circuit
+31	-	EC.2.2.1	Phasor voltage in AC network
+32	-	EC.3.3.1	Depletion width vs reverse bias
+33	-	EC.3.3	Bias conditions of pn diode types
+34	-	EC.3.3.3	Base transport factor from β
+35	-	EC.3.3	Match devices to properties
+36	-	EC.4.3.1	Op-amp output voltage
+37	-	EC.4.2.1	BJT mode of operation
+38	-	EC.4.3	Log amplifier output relation
+39	-	EC.5.2.4	CMOS inverter current
+40	-	EC.4.1	Zener regulator output range
+41	-	EC.5.2.2	Boolean expression minimisation
+42	-	EC.5.2.4	TTL NOT gate transistor modes	Logic families (TTL/DTL)
+43	-	EC.5.2.7	Function from cascaded MUXes
+44	-	EC.5.3.1	NAND latch outputs
+45	-	EC.5.3.2	Counter state sequence
+46	-	EC.5.6	8255 interfacing address range	8085 microprocessor
+47	-	EC.2.6.2	3-dB bandwidth of exponential signal
+48	-	EC.2.5.1	Hilbert transformer properties
+49	-	EC.2.5.4	Step response from frequency response
+50	-	EC.2.7.1	Integral of DTFT
+51	-	EC.2.7.3	x[0] from z-transform with ROC
+52	-	EC.6.5.2	PD controller gains from specs
+53	-	EC.6.2.1	Dominant pole approximation
+54	-	EC.6.5.1	Lead compensator for stabilisation
+55	-	EC.6.4.3	Gain for point on root locus
+56	-	EC.6.4.2	Transfer function from Bode plot
+57	-	EC.6.6.1	Transfer function of DC motor from state model
+58	-	EC.7.4.2	Reducing slope overload in delta modulation
+59	-	EC.7.4.5	Raised-cosine pulse value
+60	-	EC.7.2.1	SSB spectrum via Hilbert transform
+61	-	EC.1.6.4	At most one bit error in n bits
+62	-	EC.7.4	GSM TDMA channels per cell	Multiple access (TDMA/CDMA)
+63	-	EC.7.4	DS-CDMA processing gain	Multiple access (TDMA/CDMA)
+64	-	EC.8.4.1	Wave impedance of TE20 mode
+65	-	EC.8.1.4	Average power density of plane wave
+66	-	EC.8.4.1	Identify waveguide mode
+67	-	EC.8.3.5	S-matrix of shunt element
+68	-	EC.8.3.4	Input reflection coefficient of line network
+69	-	EC.8.6.1	Dipole above ground plane pattern
+70	-	EC.8.2.1	Brewster angle: relative permittivity
+71	-	EC.3.3.4	MOS capacitor oxide thickness
+72	-	EC.3.3.4	Maximum depletion width
+73	-	EC.3.3.4	Substrate type and C-V shift
+74	-	EC.7.4.3	Constellation average energies
+75	-	EC.7.4.8	Symbol error comparison of constellations
+76	-	EC.4.3.5	All-pass op-amp transfer function
+77	-	EC.4.3.5	Phase range of all-pass filter
+78	-	EC.5.6.1	8085 program: accumulator after ADD	8085 microprocessor
+79	-	EC.5.6.1	8085 program: flags	8085 microprocessor
+80	-	EC.6.6.2	Eigenvalue-eigenvector pairs from responses
+81	-	EC.6.6.2	System matrix from responses
+82	-	EC.7.4.1	Quantizer pdf parameters (max entropy)
+83	-	EC.7.4.1	Signal-to-quantization-noise ratio
+84	-	EC.5.4.3	R-2R DAC current
+85	-	EC.5.4.3	R-2R DAC output voltage
