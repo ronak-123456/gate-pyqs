@@ -1,0 +1,1132 @@
+{
+  "exam": "GATE",
+  "paper": "EC",
+  "syllabus_year": 2027,
+  "organizing_institute": "IIT Madras",
+  "note": "IDs are section.topic.subtopic. Topics marked derived=true are groupings not named as headings in the official syllabus text (Control Systems is a flat list there; waveguides/fibers/antennas and 2-port networks sit inside other paragraphs). Every subtopic is taken from the official syllabus wording.",
+  "sections": [
+    {
+      "id": "EC.1",
+      "name": "Engineering Mathematics",
+      "topics": [
+        {
+          "id": "EC.1.1",
+          "name": "Linear Algebra",
+          "derived": false,
+          "subtopics": [
+            {
+              "id": "EC.1.1.1",
+              "name": "Vector space"
+            },
+            {
+              "id": "EC.1.1.2",
+              "name": "Basis"
+            },
+            {
+              "id": "EC.1.1.3",
+              "name": "Linear dependence and independence"
+            },
+            {
+              "id": "EC.1.1.4",
+              "name": "Matrix algebra"
+            },
+            {
+              "id": "EC.1.1.5",
+              "name": "Eigenvalues and eigenvectors"
+            },
+            {
+              "id": "EC.1.1.6",
+              "name": "Rank"
+            },
+            {
+              "id": "EC.1.1.7",
+              "name": "Solution of linear equations - existence and uniqueness"
+            }
+          ]
+        },
+        {
+          "id": "EC.1.2",
+          "name": "Calculus",
+          "derived": false,
+          "subtopics": [
+            {
+              "id": "EC.1.2.1",
+              "name": "Mean value theorems"
+            },
+            {
+              "id": "EC.1.2.2",
+              "name": "Theorems of integral calculus"
+            },
+            {
+              "id": "EC.1.2.3",
+              "name": "Evaluation of definite and improper integrals"
+            },
+            {
+              "id": "EC.1.2.4",
+              "name": "Partial derivatives"
+            },
+            {
+              "id": "EC.1.2.5",
+              "name": "Maxima and minima"
+            },
+            {
+              "id": "EC.1.2.6",
+              "name": "Multiple integrals"
+            },
+            {
+              "id": "EC.1.2.7",
+              "name": "Line, surface and volume integrals"
+            },
+            {
+              "id": "EC.1.2.8",
+              "name": "Taylor series"
+            }
+          ]
+        },
+        {
+          "id": "EC.1.3",
+          "name": "Differential Equations",
+          "derived": false,
+          "subtopics": [
+            {
+              "id": "EC.1.3.1",
+              "name": "Linear differential equations"
+            },
+            {
+              "id": "EC.1.3.2",
+              "name": "Euler-Cauchy equation"
+            },
+            {
+              "id": "EC.1.3.3",
+              "name": "Nonhomogeneous equations"
+            },
+            {
+              "id": "EC.1.3.4",
+              "name": "Variation of parameters"
+            },
+            {
+              "id": "EC.1.3.5",
+              "name": "Complementary function and particular integral"
+            },
+            {
+              "id": "EC.1.3.6",
+              "name": "Partial differential equations"
+            },
+            {
+              "id": "EC.1.3.7",
+              "name": "Variable separable method"
+            },
+            {
+              "id": "EC.1.3.8",
+              "name": "Initial and boundary value problems"
+            }
+          ]
+        },
+        {
+          "id": "EC.1.4",
+          "name": "Vector Analysis",
+          "derived": false,
+          "subtopics": [
+            {
+              "id": "EC.1.4.1",
+              "name": "Vectors in plane and space"
+            },
+            {
+              "id": "EC.1.4.2",
+              "name": "Vector operations"
+            },
+            {
+              "id": "EC.1.4.3",
+              "name": "Gradient, divergence and curl"
+            },
+            {
+              "id": "EC.1.4.4",
+              "name": "Gauss's, Green's and Stokes' theorems"
+            }
+          ]
+        },
+        {
+          "id": "EC.1.5",
+          "name": "Complex Analysis",
+          "derived": false,
+          "subtopics": [
+            {
+              "id": "EC.1.5.1",
+              "name": "Analytic functions"
+            },
+            {
+              "id": "EC.1.5.2",
+              "name": "Cauchy's integral theorem"
+            },
+            {
+              "id": "EC.1.5.3",
+              "name": "Cauchy's integral formula"
+            },
+            {
+              "id": "EC.1.5.4",
+              "name": "Sequences, series and convergence tests"
+            },
+            {
+              "id": "EC.1.5.5",
+              "name": "Taylor and Laurent series"
+            },
+            {
+              "id": "EC.1.5.6",
+              "name": "Residue theorem"
+            }
+          ]
+        },
+        {
+          "id": "EC.1.6",
+          "name": "Probability and Statistics",
+          "derived": false,
+          "subtopics": [
+            {
+              "id": "EC.1.6.1",
+              "name": "Mean, median, mode, standard deviation"
+            },
+            {
+              "id": "EC.1.6.2",
+              "name": "Combinatorial probability"
+            },
+            {
+              "id": "EC.1.6.3",
+              "name": "Probability distributions"
+            },
+            {
+              "id": "EC.1.6.4",
+              "name": "Binomial distribution"
+            },
+            {
+              "id": "EC.1.6.5",
+              "name": "Poisson distribution"
+            },
+            {
+              "id": "EC.1.6.6",
+              "name": "Exponential distribution"
+            },
+            {
+              "id": "EC.1.6.7",
+              "name": "Normal distribution"
+            },
+            {
+              "id": "EC.1.6.8",
+              "name": "Joint and conditional probability"
+            },
+            {
+              "id": "EC.1.6.9",
+              "name": "Correlation and regression analysis"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "EC.2",
+      "name": "Networks, Signals and Systems",
+      "topics": [
+        {
+          "id": "EC.2.1",
+          "name": "Circuit Analysis",
+          "derived": false,
+          "subtopics": [
+            {
+              "id": "EC.2.1.1",
+              "name": "Node and mesh analysis"
+            },
+            {
+              "id": "EC.2.1.2",
+              "name": "Superposition"
+            },
+            {
+              "id": "EC.2.1.3",
+              "name": "Thevenin's theorem"
+            },
+            {
+              "id": "EC.2.1.4",
+              "name": "Norton's theorem"
+            },
+            {
+              "id": "EC.2.1.5",
+              "name": "Reciprocity"
+            }
+          ]
+        },
+        {
+          "id": "EC.2.2",
+          "name": "Sinusoidal Steady State Analysis",
+          "derived": false,
+          "subtopics": [
+            {
+              "id": "EC.2.2.1",
+              "name": "Phasors"
+            },
+            {
+              "id": "EC.2.2.2",
+              "name": "Complex power"
+            },
+            {
+              "id": "EC.2.2.3",
+              "name": "Maximum power transfer"
+            }
+          ]
+        },
+        {
+          "id": "EC.2.3",
+          "name": "Time and Frequency Domain Analysis of Linear Circuits",
+          "derived": false,
+          "subtopics": [
+            {
+              "id": "EC.2.3.1",
+              "name": "RL circuits"
+            },
+            {
+              "id": "EC.2.3.2",
+              "name": "RC circuits"
+            },
+            {
+              "id": "EC.2.3.3",
+              "name": "RLC circuits"
+            },
+            {
+              "id": "EC.2.3.4",
+              "name": "Solution of network equations using Laplace transform"
+            }
+          ]
+        },
+        {
+          "id": "EC.2.4",
+          "name": "Two-Port Networks and Transformations",
+          "derived": true,
+          "subtopics": [
+            {
+              "id": "EC.2.4.1",
+              "name": "Linear 2-port network parameters"
+            },
+            {
+              "id": "EC.2.4.2",
+              "name": "Wye-delta transformation"
+            }
+          ]
+        },
+        {
+          "id": "EC.2.5",
+          "name": "LTI Systems",
+          "derived": false,
+          "subtopics": [
+            {
+              "id": "EC.2.5.1",
+              "name": "Definition and properties"
+            },
+            {
+              "id": "EC.2.5.2",
+              "name": "Causality"
+            },
+            {
+              "id": "EC.2.5.3",
+              "name": "Stability"
+            },
+            {
+              "id": "EC.2.5.4",
+              "name": "Impulse response"
+            },
+            {
+              "id": "EC.2.5.5",
+              "name": "Convolution"
+            },
+            {
+              "id": "EC.2.5.6",
+              "name": "Poles and zeros"
+            },
+            {
+              "id": "EC.2.5.7",
+              "name": "Frequency response"
+            },
+            {
+              "id": "EC.2.5.8",
+              "name": "Group delay and phase delay"
+            }
+          ]
+        },
+        {
+          "id": "EC.2.6",
+          "name": "Continuous-time Signals",
+          "derived": false,
+          "subtopics": [
+            {
+              "id": "EC.2.6.1",
+              "name": "Fourier series"
+            },
+            {
+              "id": "EC.2.6.2",
+              "name": "Fourier transform"
+            },
+            {
+              "id": "EC.2.6.3",
+              "name": "Nyquist sampling theorem"
+            },
+            {
+              "id": "EC.2.6.4",
+              "name": "Sampling and reconstruction"
+            }
+          ]
+        },
+        {
+          "id": "EC.2.7",
+          "name": "Discrete-time Signals",
+          "derived": false,
+          "subtopics": [
+            {
+              "id": "EC.2.7.1",
+              "name": "DTFT"
+            },
+            {
+              "id": "EC.2.7.2",
+              "name": "DFT"
+            },
+            {
+              "id": "EC.2.7.3",
+              "name": "z-transform"
+            },
+            {
+              "id": "EC.2.7.4",
+              "name": "FIR filter design"
+            },
+            {
+              "id": "EC.2.7.5",
+              "name": "IIR filter design"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "EC.3",
+      "name": "Electronic Devices",
+      "topics": [
+        {
+          "id": "EC.3.1",
+          "name": "Energy Bands and Carrier Concentration",
+          "derived": true,
+          "subtopics": [
+            {
+              "id": "EC.3.1.1",
+              "name": "Formation of energy bands in solids"
+            },
+            {
+              "id": "EC.3.1.2",
+              "name": "Energy bands in intrinsic and extrinsic semiconductors"
+            },
+            {
+              "id": "EC.3.1.3",
+              "name": "Equilibrium carrier concentration"
+            },
+            {
+              "id": "EC.3.1.4",
+              "name": "Direct and indirect band-gap semiconductors"
+            }
+          ]
+        },
+        {
+          "id": "EC.3.2",
+          "name": "Carrier Transport",
+          "derived": false,
+          "subtopics": [
+            {
+              "id": "EC.3.2.1",
+              "name": "Diffusion current"
+            },
+            {
+              "id": "EC.3.2.2",
+              "name": "Drift current"
+            },
+            {
+              "id": "EC.3.2.3",
+              "name": "Mobility and resistivity"
+            },
+            {
+              "id": "EC.3.2.4",
+              "name": "Generation and recombination of carriers"
+            },
+            {
+              "id": "EC.3.2.5",
+              "name": "Poisson and continuity equations"
+            }
+          ]
+        },
+        {
+          "id": "EC.3.3",
+          "name": "Semiconductor Devices",
+          "derived": true,
+          "subtopics": [
+            {
+              "id": "EC.3.3.1",
+              "name": "P-N junction"
+            },
+            {
+              "id": "EC.3.3.2",
+              "name": "Zener diode"
+            },
+            {
+              "id": "EC.3.3.3",
+              "name": "BJT"
+            },
+            {
+              "id": "EC.3.3.4",
+              "name": "MOS capacitor"
+            },
+            {
+              "id": "EC.3.3.5",
+              "name": "MOSFET"
+            },
+            {
+              "id": "EC.3.3.6",
+              "name": "Scaling in MOSFETs"
+            },
+            {
+              "id": "EC.3.3.7",
+              "name": "LED"
+            },
+            {
+              "id": "EC.3.3.8",
+              "name": "Photodiode"
+            },
+            {
+              "id": "EC.3.3.9",
+              "name": "Solar cell"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "EC.4",
+      "name": "Analog Circuits",
+      "topics": [
+        {
+          "id": "EC.4.1",
+          "name": "Diode Circuits",
+          "derived": false,
+          "subtopics": [
+            {
+              "id": "EC.4.1.1",
+              "name": "Clipping"
+            },
+            {
+              "id": "EC.4.1.2",
+              "name": "Clamping"
+            },
+            {
+              "id": "EC.4.1.3",
+              "name": "Rectifiers"
+            }
+          ]
+        },
+        {
+          "id": "EC.4.2",
+          "name": "BJT and MOSFET Amplifiers",
+          "derived": false,
+          "subtopics": [
+            {
+              "id": "EC.4.2.1",
+              "name": "Biasing"
+            },
+            {
+              "id": "EC.4.2.2",
+              "name": "AC coupling"
+            },
+            {
+              "id": "EC.4.2.3",
+              "name": "Small signal analysis"
+            },
+            {
+              "id": "EC.4.2.4",
+              "name": "Frequency response"
+            },
+            {
+              "id": "EC.4.2.5",
+              "name": "Current mirrors"
+            },
+            {
+              "id": "EC.4.2.6",
+              "name": "Differential amplifiers"
+            }
+          ]
+        },
+        {
+          "id": "EC.4.3",
+          "name": "Op-amp Circuits",
+          "derived": false,
+          "subtopics": [
+            {
+              "id": "EC.4.3.1",
+              "name": "Amplifiers"
+            },
+            {
+              "id": "EC.4.3.2",
+              "name": "Summers"
+            },
+            {
+              "id": "EC.4.3.3",
+              "name": "Differentiators"
+            },
+            {
+              "id": "EC.4.3.4",
+              "name": "Integrators"
+            },
+            {
+              "id": "EC.4.3.5",
+              "name": "Active filters"
+            },
+            {
+              "id": "EC.4.3.6",
+              "name": "Schmitt trigger"
+            },
+            {
+              "id": "EC.4.3.7",
+              "name": "Oscillators"
+            },
+            {
+              "id": "EC.4.3.8",
+              "name": "Dominant-pole (Miller) compensation"
+            },
+            {
+              "id": "EC.4.3.9",
+              "name": "Phase margin"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "EC.5",
+      "name": "Digital Circuits",
+      "topics": [
+        {
+          "id": "EC.5.1",
+          "name": "Number Representations",
+          "derived": false,
+          "subtopics": [
+            {
+              "id": "EC.5.1.1",
+              "name": "Binary numbers"
+            },
+            {
+              "id": "EC.5.1.2",
+              "name": "Integer numbers"
+            },
+            {
+              "id": "EC.5.1.3",
+              "name": "Floating-point numbers"
+            }
+          ]
+        },
+        {
+          "id": "EC.5.2",
+          "name": "Combinational Circuits",
+          "derived": false,
+          "subtopics": [
+            {
+              "id": "EC.5.2.1",
+              "name": "Boolean algebra"
+            },
+            {
+              "id": "EC.5.2.2",
+              "name": "Minimization using Boolean identities"
+            },
+            {
+              "id": "EC.5.2.3",
+              "name": "Karnaugh map minimization"
+            },
+            {
+              "id": "EC.5.2.4",
+              "name": "Logic gates and static CMOS implementations"
+            },
+            {
+              "id": "EC.5.2.5",
+              "name": "Arithmetic circuits"
+            },
+            {
+              "id": "EC.5.2.6",
+              "name": "Code converters"
+            },
+            {
+              "id": "EC.5.2.7",
+              "name": "Multiplexers"
+            },
+            {
+              "id": "EC.5.2.8",
+              "name": "Decoders"
+            }
+          ]
+        },
+        {
+          "id": "EC.5.3",
+          "name": "Sequential Circuits",
+          "derived": false,
+          "subtopics": [
+            {
+              "id": "EC.5.3.1",
+              "name": "Latches and flip-flops"
+            },
+            {
+              "id": "EC.5.3.2",
+              "name": "Counters"
+            },
+            {
+              "id": "EC.5.3.3",
+              "name": "Shift registers"
+            },
+            {
+              "id": "EC.5.3.4",
+              "name": "Finite state machines"
+            },
+            {
+              "id": "EC.5.3.5",
+              "name": "Propagation delay"
+            },
+            {
+              "id": "EC.5.3.6",
+              "name": "Setup and hold time"
+            },
+            {
+              "id": "EC.5.3.7",
+              "name": "Critical path delay"
+            }
+          ]
+        },
+        {
+          "id": "EC.5.4",
+          "name": "Data Converters",
+          "derived": false,
+          "subtopics": [
+            {
+              "id": "EC.5.4.1",
+              "name": "Sample and hold circuits"
+            },
+            {
+              "id": "EC.5.4.2",
+              "name": "ADCs"
+            },
+            {
+              "id": "EC.5.4.3",
+              "name": "DACs"
+            }
+          ]
+        },
+        {
+          "id": "EC.5.5",
+          "name": "Semiconductor Memories",
+          "derived": false,
+          "subtopics": [
+            {
+              "id": "EC.5.5.1",
+              "name": "ROM"
+            },
+            {
+              "id": "EC.5.5.2",
+              "name": "SRAM"
+            },
+            {
+              "id": "EC.5.5.3",
+              "name": "DRAM"
+            }
+          ]
+        },
+        {
+          "id": "EC.5.6",
+          "name": "Computer Organization",
+          "derived": false,
+          "subtopics": [
+            {
+              "id": "EC.5.6.1",
+              "name": "Machine instructions and addressing modes"
+            },
+            {
+              "id": "EC.5.6.2",
+              "name": "ALU"
+            },
+            {
+              "id": "EC.5.6.3",
+              "name": "Data-path and control unit"
+            },
+            {
+              "id": "EC.5.6.4",
+              "name": "Instruction pipelining"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "EC.6",
+      "name": "Control Systems",
+      "topics": [
+        {
+          "id": "EC.6.1",
+          "name": "System Modelling",
+          "derived": true,
+          "subtopics": [
+            {
+              "id": "EC.6.1.1",
+              "name": "Basic control system components"
+            },
+            {
+              "id": "EC.6.1.2",
+              "name": "Feedback principle"
+            },
+            {
+              "id": "EC.6.1.3",
+              "name": "Transfer function"
+            },
+            {
+              "id": "EC.6.1.4",
+              "name": "Block diagram representation"
+            },
+            {
+              "id": "EC.6.1.5",
+              "name": "Signal flow graph"
+            }
+          ]
+        },
+        {
+          "id": "EC.6.2",
+          "name": "Time-Domain Analysis",
+          "derived": true,
+          "subtopics": [
+            {
+              "id": "EC.6.2.1",
+              "name": "Transient analysis of LTI systems"
+            },
+            {
+              "id": "EC.6.2.2",
+              "name": "Steady-state analysis of LTI systems"
+            }
+          ]
+        },
+        {
+          "id": "EC.6.3",
+          "name": "Stability Analysis",
+          "derived": true,
+          "subtopics": [
+            {
+              "id": "EC.6.3.1",
+              "name": "Routh-Hurwitz criterion"
+            },
+            {
+              "id": "EC.6.3.2",
+              "name": "Nyquist criterion"
+            }
+          ]
+        },
+        {
+          "id": "EC.6.4",
+          "name": "Frequency Response and Root Locus",
+          "derived": true,
+          "subtopics": [
+            {
+              "id": "EC.6.4.1",
+              "name": "Frequency response"
+            },
+            {
+              "id": "EC.6.4.2",
+              "name": "Bode plots"
+            },
+            {
+              "id": "EC.6.4.3",
+              "name": "Root-locus plots"
+            }
+          ]
+        },
+        {
+          "id": "EC.6.5",
+          "name": "Compensators and Controllers",
+          "derived": true,
+          "subtopics": [
+            {
+              "id": "EC.6.5.1",
+              "name": "Compensators"
+            },
+            {
+              "id": "EC.6.5.2",
+              "name": "PID controller"
+            }
+          ]
+        },
+        {
+          "id": "EC.6.6",
+          "name": "State-Space Analysis",
+          "derived": true,
+          "subtopics": [
+            {
+              "id": "EC.6.6.1",
+              "name": "State variable model"
+            },
+            {
+              "id": "EC.6.6.2",
+              "name": "Solution of state equation of LTI systems"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "EC.7",
+      "name": "Communications",
+      "topics": [
+        {
+          "id": "EC.7.1",
+          "name": "Random Processes",
+          "derived": false,
+          "subtopics": [
+            {
+              "id": "EC.7.1.1",
+              "name": "Autocorrelation"
+            },
+            {
+              "id": "EC.7.1.2",
+              "name": "Power spectral density"
+            },
+            {
+              "id": "EC.7.1.3",
+              "name": "Properties of white noise"
+            },
+            {
+              "id": "EC.7.1.4",
+              "name": "Filtering of random signals through LTI systems"
+            }
+          ]
+        },
+        {
+          "id": "EC.7.2",
+          "name": "Analog Communications",
+          "derived": false,
+          "subtopics": [
+            {
+              "id": "EC.7.2.1",
+              "name": "Amplitude modulation and demodulation"
+            },
+            {
+              "id": "EC.7.2.2",
+              "name": "Angle modulation and demodulation"
+            },
+            {
+              "id": "EC.7.2.3",
+              "name": "Spectra of AM and FM"
+            },
+            {
+              "id": "EC.7.2.4",
+              "name": "Superheterodyne receivers"
+            }
+          ]
+        },
+        {
+          "id": "EC.7.3",
+          "name": "Information Theory",
+          "derived": false,
+          "subtopics": [
+            {
+              "id": "EC.7.3.1",
+              "name": "Entropy"
+            },
+            {
+              "id": "EC.7.3.2",
+              "name": "Source coding"
+            },
+            {
+              "id": "EC.7.3.3",
+              "name": "Mutual information"
+            },
+            {
+              "id": "EC.7.3.4",
+              "name": "Channel capacity theorem"
+            }
+          ]
+        },
+        {
+          "id": "EC.7.4",
+          "name": "Digital Communications",
+          "derived": false,
+          "subtopics": [
+            {
+              "id": "EC.7.4.1",
+              "name": "PCM"
+            },
+            {
+              "id": "EC.7.4.2",
+              "name": "DPCM"
+            },
+            {
+              "id": "EC.7.4.3",
+              "name": "Digital modulation schemes (ASK, PSK, FSK, QAM)"
+            },
+            {
+              "id": "EC.7.4.4",
+              "name": "Bandwidth"
+            },
+            {
+              "id": "EC.7.4.5",
+              "name": "Inter-symbol interference"
+            },
+            {
+              "id": "EC.7.4.6",
+              "name": "MAP and ML detection"
+            },
+            {
+              "id": "EC.7.4.7",
+              "name": "Matched filter receiver"
+            },
+            {
+              "id": "EC.7.4.8",
+              "name": "SNR and BER"
+            },
+            {
+              "id": "EC.7.4.9",
+              "name": "Fundamentals of error correction"
+            },
+            {
+              "id": "EC.7.4.10",
+              "name": "Hamming codes"
+            },
+            {
+              "id": "EC.7.4.11",
+              "name": "CRC"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "EC.8",
+      "name": "Electromagnetics",
+      "topics": [
+        {
+          "id": "EC.8.1",
+          "name": "Maxwell's Equations",
+          "derived": false,
+          "subtopics": [
+            {
+              "id": "EC.8.1.1",
+              "name": "Differential and integral forms and their interpretation"
+            },
+            {
+              "id": "EC.8.1.2",
+              "name": "Boundary conditions"
+            },
+            {
+              "id": "EC.8.1.3",
+              "name": "Wave equation"
+            },
+            {
+              "id": "EC.8.1.4",
+              "name": "Poynting vector"
+            }
+          ]
+        },
+        {
+          "id": "EC.8.2",
+          "name": "Plane Waves and Properties",
+          "derived": false,
+          "subtopics": [
+            {
+              "id": "EC.8.2.1",
+              "name": "Reflection and refraction"
+            },
+            {
+              "id": "EC.8.2.2",
+              "name": "Polarization"
+            },
+            {
+              "id": "EC.8.2.3",
+              "name": "Phase and group velocity"
+            },
+            {
+              "id": "EC.8.2.4",
+              "name": "Propagation through various media"
+            },
+            {
+              "id": "EC.8.2.5",
+              "name": "Skin depth"
+            }
+          ]
+        },
+        {
+          "id": "EC.8.3",
+          "name": "Transmission Lines",
+          "derived": false,
+          "subtopics": [
+            {
+              "id": "EC.8.3.1",
+              "name": "Transmission line equations"
+            },
+            {
+              "id": "EC.8.3.2",
+              "name": "Characteristic impedance"
+            },
+            {
+              "id": "EC.8.3.3",
+              "name": "Impedance matching"
+            },
+            {
+              "id": "EC.8.3.4",
+              "name": "Impedance transformation"
+            },
+            {
+              "id": "EC.8.3.5",
+              "name": "S-parameters"
+            },
+            {
+              "id": "EC.8.3.6",
+              "name": "Smith chart"
+            }
+          ]
+        },
+        {
+          "id": "EC.8.4",
+          "name": "Waveguides",
+          "derived": true,
+          "subtopics": [
+            {
+              "id": "EC.8.4.1",
+              "name": "Rectangular waveguides"
+            },
+            {
+              "id": "EC.8.4.2",
+              "name": "Circular waveguides"
+            }
+          ]
+        },
+        {
+          "id": "EC.8.5",
+          "name": "Optical Fibers",
+          "derived": true,
+          "subtopics": [
+            {
+              "id": "EC.8.5.1",
+              "name": "Light propagation in optical fibers"
+            }
+          ]
+        },
+        {
+          "id": "EC.8.6",
+          "name": "Antennas",
+          "derived": true,
+          "subtopics": [
+            {
+              "id": "EC.8.6.1",
+              "name": "Dipole antennas"
+            },
+            {
+              "id": "EC.8.6.2",
+              "name": "Monopole antennas"
+            },
+            {
+              "id": "EC.8.6.3",
+              "name": "Linear antenna arrays"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
