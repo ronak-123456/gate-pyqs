@@ -94,6 +94,8 @@ main { min-width: 0; padding-block: 24px 80px; padding-left: max(16px, env(safe-
 .sheet footer { display: flex; flex-wrap: wrap; gap: 8px; padding: 0 16px 14px }
 .sol { border-top: 1px dashed var(--rule); padding: 14px 18px 18px; display: grid; gap: 10px }
 .anskey { display: flex; flex-wrap: wrap; gap: 8px 12px; align-items: baseline; background: var(--ans-soft); color: var(--ans); border-radius: 8px; padding: 9px 12px; font-weight: 600 }
+.keytag { margin-left: auto; font: 500 .72rem var(--font-mono); padding: 3px 8px; border-radius: 999px; background: var(--sheet); color: var(--ans) }
+.keytag.bad { color: var(--flag) }
 .anskey span.k { font: 500 .7rem var(--font-mono); letter-spacing: .08em; text-transform: uppercase }
 .concept { font-size: .9rem; color: var(--muted) }
 .concept b { color: var(--ink); font-weight: 600 }
@@ -211,7 +213,7 @@ window.MathJax = {
     const foot = el.querySelector("footer"), sol = el.querySelector(".sol");
     if (q.sol) {
       sol.innerHTML = `
-        <div class="anskey"><span class="k">Answer</span><span>${q.sol.ans}</span></div>
+        <div class="anskey"><span class="k">Answer</span><span>${q.sol.ans}</span>${q.key ? `<span class="keytag ${q.ok === false ? "bad" : ""}">${q.ok === false ? "Official key: " + esc(q.key) : "✓ Matches official key" + (q.key.length < 24 ? " (" + esc(q.key) + ")" : "")}</span>` : ""}</div>
         ${q.sol.concept ? `<div class="concept"><b>Key idea.</b> ${q.sol.concept}</div>` : ""}
         <div class="prose">${q.sol.html}</div>`;
       const btn = document.createElement("button");

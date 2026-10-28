@@ -135,7 +135,7 @@ def find_anchors(lines, w, h, mode):
     return anchors
 
 
-def content_band(lines, w, h, first_anchor=None):
+def content_band(lines, w, h, first_anchor=None, headers=True):
     """Exclude running header/footer: lines fully in the top/bottom 7% bands."""
     top, bot = 0.035 * h, 0.965 * h
     for x0, y0, x1, y1, t in lines:
@@ -144,7 +144,7 @@ def content_band(lines, w, h, first_anchor=None):
             continue
         if first_anchor is not None and y1 > first_anchor - 4:
             pass
-        elif y1 < 0.10 * h:
+        elif headers and y1 < 0.10 * h:
             top = max(top, y1 + 3)
         if y0 > 0.90 * h:
             bot = min(bot, y0 - 3)
@@ -188,18 +188,22 @@ def crop_paper(paper, out_dir):
             img = Image.open(io.BytesIO(doc[p].get_pixmap(dpi=DPI, colorspace=pymupdf.csGRAY).tobytes("png")))
             anchors = find_anchors(lines, w, h, rmode)
             first = min((a[0] for a in anchors if a[1] != "stop"), default=None)
-            top, bot = content_band(lines, w, h, first)
+            top, bot = content_band(lines, w, h, first, headers=(rmode != "qno"))
             pages[p] = (img, top, bot)
             for y, kind, val in anchors:
                 if top - 20 <= y <= bot:
                     events.append((p, y, kind, val, prefix))
     events.sort(key=lambda e: (e[0], e[1]))
-    if mode == "qno":   # 2020: GA Q1-10 then EC restarts at Q1
-        n = 0
+    if paper in ("2019", "2020", "2021"):   # GA Q1-10 come first, then EC restarts at Q1
+        prev = 0
         for i, e in enumerate(events):
-            if e[2] == "q" and n < 10:
-                events[i] = (e[0], e[1], e[2], e[3], "GA")
-                n += 1
+            if e[2] != "q":
+                continue
+            n = int(e[3])
+            if n < prev:
+                break
+            prev = n
+            events[i] = (e[0], e[1], e[2], e[3], "GA")
     order = [p for r in ranges for p in range(r[0] - 1, r[1])]
     pos = {p: i for i, p in enumerate(order)}
 

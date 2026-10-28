@@ -95,6 +95,27 @@ def tidy_image(path):
     return "data:image/webp;base64," + base64.b64encode(buf.getvalue()).decode()
 
 
+def check_answer(ans, key):
+    """Compare our answer text with an official key. True/False, or None when not comparable."""
+    if not key:
+        return None
+    if key in ("MTA", "Marks to All"):
+        return True
+    plain = re.sub(r"<[^>]+>|\$", " ", ans).replace("−", "-")
+    m = re.match(r"\s*(-?[\d.]+)\s+to\s+(-?[\d.]+)", key)
+    if m:
+        lo, hi = sorted((float(m.group(1)), float(m.group(2))))
+        nums = [float(x) for x in re.findall(r"-?\d+(?:\.\d+)?", plain.replace(",", ""))[:3]]
+        if not nums:
+            return None
+        tol = max(1e-9, abs(hi) * 0.002)
+        return any(lo - tol <= n <= hi + tol for n in nums)
+    letters = set(re.findall(r"\(([A-D])\)", plain))
+    if not letters:
+        return None
+    return letters == set(key.replace(";", ",").replace(" ", "").split(","))
+
+
 def main():
     crops = sys.argv[1]
     out = os.path.join(ROOT, "book")
@@ -110,6 +131,8 @@ def main():
     papers, questions = [], []
     for paper, (year, set_label, pdf, _) in PAPERS.items():
         sols = parse_blocks(os.path.join(ROOT, "data", "solutions", paper + ".md"))
+        kp = os.path.join(ROOT, "data", "keys", paper + ".json")
+        keys = json.load(open(kp)) if os.path.exists(kp) else {}
         imgs, solved = {}, 0
         for r in by_paper[paper]:
             q = r["q_no"]
@@ -125,6 +148,8 @@ def main():
                 "subject": r["subject_id"], "topic": r["topic_id"], "subtopic": r["subtopic_id"],
                 "summary": r["summary"], "off": r["off_syllabus_topic"],
                 "img": q in imgs,
+                "key": keys.get(q),
+                "ok": check_answer(s.get("ans", ""), keys.get(q)) if s else None,
                 "sol": None if not s else {
                     "ans": s.get("ans_html", ""), "concept": s.get("concept_html", ""),
                     "level": s.get("level", ""), "style": s.get("style", ""), "html": s["html"]},
@@ -151,6 +176,11 @@ def main():
     json.dump(book, open(os.path.join(out, "data", "book.json"), "w"), separators=(",", ":"))
     shutil.copy(os.path.join(out, "src", "index.html"), os.path.join(out, "index.html"))
     total = sum(p["solved"] for p in papers)
+    bad = [q["id"] for q in questions if q["ok"] is False]
+    unk = [q["id"] for q in questions if q["sol"] and q["key"] and q["ok"] is None]
+    print("key mismatches:", " ".join(bad) or "none")
+    if unk:
+        print("not auto-comparable:", " ".join(unk))
     print(f"{len(questions)} questions, {total} solved, "
           f"{sum(p['images'] for p in papers)} images, pages: {', '.join(pages)}")
 
