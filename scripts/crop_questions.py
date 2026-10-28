@@ -146,7 +146,7 @@ def content_band(lines, w, h, first_anchor=None, headers=True):
             pass
         elif headers and y1 < 0.10 * h:
             top = max(top, y1 + 3)
-        if y0 > 0.90 * h:
+        if headers and y0 > 0.90 * h:   # 2020 (qno) has no footer and sets options near the foot
             bot = min(bot, y0 - 3)
     return top, bot
 
