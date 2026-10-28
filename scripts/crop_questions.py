@@ -15,6 +15,7 @@ import os
 import re
 import sys
 
+import numpy as np
 import pymupdf
 from PIL import Image, ImageOps
 
@@ -59,6 +60,9 @@ PAPERS = {
 MANUAL = {
     "2019": [(14, 316, "19")],
 }
+
+# Running-header text; other lines near the top of a page continue the previous question
+HEADER_RE = re.compile(r"GATE|\bSet\b|\bPage\b|\bEC\b|EC-?\d|\bPaper\b|\bCode\b|IIT|Organi[sz]|Electronics|Aptitude|Copyright|^\d+\s*(/\s*\d+)?$", re.I)
 
 Q_RE = re.compile(r"^\s*Q\s*[\.,]?\s*(?:No\.?\s*)?(\d{1,2})(?!\d)(?!\s*(?:[–\-]|to\b))")
 PRE_RE = re.compile(r"(Common Data|Statement for Linked|Linked Answer Questions?:? ?Q)", re.I)
@@ -121,7 +125,7 @@ def find_anchors(lines, w, h, mode):
             continue
         m = re.match(r"Question\s*Number\s*[:;]?\s*(\d+)", t.replace(" ", ""))
         if m:
-            anchors.append((y0, "q", m.group(1)))
+            anchors.append((y0, "qn", m.group(1)))
             continue
         if mode in ("qnum", "qnum17"):
             continue
@@ -143,8 +147,8 @@ def find_anchors(lines, w, h, mode):
 def content_band(lines, w, h, first_anchor=None, headers=True):
     """Exclude running header/footer: lines in the top/bottom 10% bands.
 
-    The footer starts at the first bottom-band line that is set apart from the line above
-    it by a gap, so options running into the bottom band are kept.
+    Only header-like text (HEADER_RE) or images count, so options running into the bottom
+    band are kept.
     """
     top, bot = 0.035 * h, 0.965 * h
     for x0, y0, x1, y1, t in lines:
@@ -153,25 +157,27 @@ def content_band(lines, w, h, first_anchor=None, headers=True):
             continue
         if first_anchor is not None and y1 > first_anchor - 4:
             pass
-        elif headers and y1 < 0.10 * h:
+        elif headers and y1 < 0.10 * h and (t == "" or HEADER_RE.search(ts)):
             top = max(top, y1 + 3)
     if headers:   # 2020 (qno) has no footer and sets options near the foot
-        prev_bottom = 0
-        for x0, y0, x1, y1, t in sorted(lines, key=lambda l: l[1]):
-            if y0 > 0.90 * h and y0 - prev_bottom >= 12:
+        for x0, y0, x1, y1, t in lines:
+            ts = t.strip()
+            if y0 > 0.90 * h and (t == "" or HEADER_RE.search(ts)):
                 bot = min(bot, y0 - 3)
-                break
-            prev_bottom = max(prev_bottom, y1)
     return top, bot
 
 
 def trim(img):
-    g = ImageOps.invert(img.convert("L"))
-    g = g.point(lambda v: 255 if v > 40 else 0)
-    box = g.getbbox()
-    if not box:
+    """Crop to the ink, dropping full-width rules (header/footer lines) at the top and bottom."""
+    dark = np.asarray(img.convert("L")) < 215
+    rows = dark.sum(1)
+    keep = (rows > 0) & (rows <= 0.6 * img.width)   # inked rows that are not rules
+    ys = np.flatnonzero(keep)
+    if not len(ys):
         return None
-    x0, y0, x1, y1 = box
+    y0, y1 = ys[0], ys[-1] + 1
+    xs = np.flatnonzero(dark[y0:y1].any(0))
+    x0, x1 = xs[0], xs[-1] + 1
     return img.crop((max(0, x0 - 10), max(0, y0 - 8), min(img.width, x1 + 10), min(img.height, y1 + 8)))
 
 
@@ -207,6 +213,10 @@ def crop_paper(paper, out_dir):
             for y, kind, val in anchors:
                 if top - 20 <= y <= bot:
                     events.append((p, y, kind, val, prefix))
+    # Papers headed "Question Number : n" only use those anchors; "Q2" in the text is a transistor
+    if sum(e[2] == "qn" for e in events) >= 20:
+        events = [e for e in events if e[2] != "q"]
+    events = [(p, y, "q" if kind == "qn" else kind, val, prefix) for p, y, kind, val, prefix in events]
     for page, y, val in MANUAL.get(paper, []):
         events.append((page - 1, y, "q", val, ""))
     events.sort(key=lambda e: (e[0], e[1]))
@@ -231,7 +241,7 @@ def crop_paper(paper, out_dir):
         while True:
             p = order[i]
             img, top, bot = pages[p]
-            ya = max(y0 - 18, 0) if p == p0 else top
+            ya = max(y0 - 18, top) if p == p0 else top
             yb = min(y1 - 18, bot) if p == p1 else bot
             if yb > ya + 4:
                 parts.append(trim(img.crop((0, int(ya), img.width, int(yb)))))
