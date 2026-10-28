@@ -1,0 +1,410 @@
+<meta charset="utf-8">
+<title>GATE EC Question Book</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:ital,wght@0,400;0,500;0,600;1,400&family=IBM+Plex+Serif:wght@500;600&display=swap">
+<style>
+/* Layout: engineering notebook. A fixed index rail (papers, subjects, insights) beside a single reading column
+   of question "sheets"; each sheet shows the original question, then a worked solution that unfolds below it. */
+:root {
+  --paper: #f3f5f8;      /* page ground, cool grey with a blue bias */
+  --sheet: #ffffff;      /* question sheets */
+  --ink: #131a29;
+  --muted: #5a6476;
+  --rule: #d7dce5;
+  --accent: #2443c4;     /* cobalt: links, active nav, chips */
+  --accent-soft: #e6ebfb;
+  --ans: #0b7a5c;        /* answer key colour */
+  --ans-soft: #e2f3ec;
+  --flag: #a8501a;       /* off-syllabus / caution */
+  --flag-soft: #f8ebe0;
+  --font-display: "IBM Plex Serif", Georgia, "Times New Roman", serif;
+  --font-body: "IBM Plex Sans", "Segoe UI", system-ui, -apple-system, sans-serif;
+  --font-mono: "IBM Plex Mono", ui-monospace, "SFMono-Regular", Menlo, Consolas, monospace;
+  --img-filter: none;
+}
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) {
+  --paper: #0d121b; --sheet: #151c28; --ink: #e5e9f1; --muted: #9aa3b5; --rule: #273145;
+  --accent: #91a5ff; --accent-soft: #1d2647; --ans: #4fd1a5; --ans-soft: #12302a;
+  --flag: #f0a46b; --flag-soft: #33241a; --img-filter: invert(0.9) hue-rotate(180deg) contrast(0.95);
+  color-scheme: dark } }
+:root[data-theme="dark"] {
+  --paper: #0d121b; --sheet: #151c28; --ink: #e5e9f1; --muted: #9aa3b5; --rule: #273145;
+  --accent: #91a5ff; --accent-soft: #1d2647; --ans: #4fd1a5; --ans-soft: #12302a;
+  --flag: #f0a46b; --flag-soft: #33241a; --img-filter: invert(0.9) hue-rotate(180deg) contrast(0.95);
+  color-scheme: dark }
+
+* { box-sizing: border-box }
+html, body { height: 100% }
+body { background: var(--paper); color: var(--ink); font: 15px/1.6 var(--font-body); }
+a { color: var(--accent); text-decoration: none }
+a:hover { text-decoration: underline }
+:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; border-radius: 3px }
+h1, h2, h3 { font-family: var(--font-display); font-weight: 600; text-wrap: balance; line-height: 1.25; margin: 0 }
+h1 { font-size: 1.9rem } h2 { font-size: 1.35rem } h3 { font-size: 1.08rem }
+.mono { font-family: var(--font-mono); font-variant-numeric: tabular-nums }
+
+.app { display: grid; grid-template-columns: 286px minmax(0, 1fr); min-height: 100% }
+.rail { position: sticky; top: 0; height: 100vh; overflow-y: auto; border-right: 1px solid var(--rule);
+  padding-block: 20px 40px; padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: 16px; background: var(--paper) }
+.brand { display: grid; gap: 2px; margin-bottom: 18px }
+.brand b { font-family: var(--font-display); font-size: 1.15rem }
+.brand span { color: var(--muted); font-size: .8rem }
+.rail h4 { font: 500 .7rem/1 var(--font-mono); letter-spacing: .08em; text-transform: uppercase; color: var(--muted); margin: 20px 0 8px }
+.rail nav { display: grid; gap: 1px }
+.rail a.nav { display: flex; justify-content: space-between; gap: 8px; padding: 5px 8px; border-radius: 6px; color: var(--ink); font-size: .9rem }
+.rail a.nav:hover { background: var(--accent-soft); text-decoration: none }
+.rail a.nav.on { background: var(--accent); color: #fff }
+:root[data-theme="dark"] .rail a.nav.on { color: #0d121b }
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) .rail a.nav.on { color: #0d121b } }
+.rail a.nav small { font-family: var(--font-mono); font-size: .72rem; opacity: .7 }
+.yeargrid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 4px }
+.yeargrid a { text-align: center; padding: 5px 0; border-radius: 6px; font: 500 .78rem var(--font-mono); color: var(--ink); background: var(--sheet); border: 1px solid var(--rule) }
+.yeargrid a:hover { border-color: var(--accent); text-decoration: none }
+.yeargrid a.on { background: var(--accent); border-color: var(--accent); color: var(--sheet) }
+.yeargrid a .pct { display: block; height: 3px; margin: 3px 6px 0; background: var(--rule); border-radius: 2px; overflow: hidden }
+.yeargrid a .pct i { display: block; height: 100%; background: var(--ans) }
+details.subj summary { cursor: pointer; padding: 5px 8px; border-radius: 6px; font-size: .9rem; list-style: none; display: flex; justify-content: space-between }
+details.subj summary::-webkit-details-marker { display: none }
+details.subj summary:hover { background: var(--accent-soft) }
+details.subj nav { padding-left: 10px; margin-bottom: 6px }
+details.subj a.nav { font-size: .84rem }
+
+main { min-width: 0; padding-block: 24px 80px; padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)) }
+.col { max-width: 840px; margin: 0 auto; display: grid; gap: 18px }
+.topbar { display: none }
+.toolbar { display: flex; flex-wrap: wrap; gap: 8px; align-items: center }
+.toolbar input[type=search] { flex: 1 1 220px; min-width: 0; padding: 8px 12px; border-radius: 8px; border: 1px solid var(--rule); background: var(--sheet); color: var(--ink); font: inherit }
+.toolbar select, .btn { padding: 7px 12px; border-radius: 8px; border: 1px solid var(--rule); background: var(--sheet); color: var(--ink); font: 500 .85rem var(--font-body); cursor: pointer }
+.btn:hover { border-color: var(--accent) }
+.btn.primary { background: var(--accent); border-color: var(--accent); color: var(--sheet) }
+.lede { color: var(--muted); max-width: 64ch }
+.crumbs { font: .78rem var(--font-mono); color: var(--muted); letter-spacing: .02em }
+
+.sheet { background: var(--sheet); border: 1px solid var(--rule); border-radius: 12px; overflow: hidden }
+.sheet header { display: flex; flex-wrap: wrap; gap: 6px 10px; align-items: baseline; padding: 12px 16px; border-bottom: 1px solid var(--rule) }
+.qid { font: 600 .95rem var(--font-mono) }
+.chip { font: 500 .72rem/1 var(--font-mono); padding: 4px 7px; border-radius: 999px; background: var(--accent-soft); color: var(--accent); white-space: nowrap }
+.chip.flag { background: var(--flag-soft); color: var(--flag) }
+.chip.plain { background: transparent; color: var(--muted); padding-inline: 0 }
+.qsum { flex-basis: 100%; color: var(--muted); font-size: .88rem }
+.qimg { padding: 12px; background: var(--sheet) }
+.qimg img { display: block; width: 100%; height: auto; max-width: 100%; filter: var(--img-filter); border-radius: 4px }
+.qimg .ph { height: 120px; border-radius: 6px; background: repeating-linear-gradient(90deg, var(--rule) 0 1px, transparent 1px 22px); opacity: .6 }
+.sheet footer { display: flex; flex-wrap: wrap; gap: 8px; padding: 0 16px 14px }
+.sol { border-top: 1px dashed var(--rule); padding: 14px 18px 18px; display: grid; gap: 10px }
+.anskey { display: flex; flex-wrap: wrap; gap: 8px 12px; align-items: baseline; background: var(--ans-soft); color: var(--ans); border-radius: 8px; padding: 9px 12px; font-weight: 600 }
+.anskey span.k { font: 500 .7rem var(--font-mono); letter-spacing: .08em; text-transform: uppercase }
+.concept { font-size: .9rem; color: var(--muted) }
+.concept b { color: var(--ink); font-weight: 600 }
+.prose { min-width: 0 }
+.prose p, .prose ul, .prose ol { margin: 0 0 .7em; max-width: 72ch }
+.prose table { border-collapse: collapse; font-size: .88rem; margin: .4em 0 .8em; display: block; overflow-x: auto; max-width: 100% }
+.prose th, .prose td { border: 1px solid var(--rule); padding: 5px 9px; text-align: left; font-variant-numeric: tabular-nums }
+.prose th { background: var(--paper) }
+.prose strong { font-weight: 600 }
+.prose code { font-family: var(--font-mono); font-size: .9em }
+mjx-container[display="true"] { overflow-x: auto; overflow-y: hidden; max-width: 100%; padding-block: 2px }
+.pending { font-size: .88rem; color: var(--muted); font-style: italic }
+
+.hero { display: grid; gap: 14px; padding-block: 8px 4px }
+.hero h1 { font-size: clamp(1.9rem, 4vw, 2.6rem) }
+.stats { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 10px }
+.stat { background: var(--sheet); border: 1px solid var(--rule); border-radius: 10px; padding: 12px 14px }
+.stat b { display: block; font: 600 1.5rem var(--font-mono); font-variant-numeric: tabular-nums }
+.stat span { color: var(--muted); font-size: .82rem }
+.cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(230px, 1fr)); gap: 10px }
+.card { display: grid; gap: 4px; background: var(--sheet); border: 1px solid var(--rule); border-radius: 10px; padding: 14px; color: var(--ink) }
+.card:hover { border-color: var(--accent); text-decoration: none }
+.card b { font-family: var(--font-display); font-size: 1.02rem }
+.card span { color: var(--muted); font-size: .85rem }
+.list { display: grid; gap: 0; background: var(--sheet); border: 1px solid var(--rule); border-radius: 10px; overflow: hidden }
+.list a { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 10px; padding: 9px 14px; border-top: 1px solid var(--rule); color: var(--ink) }
+.list a:first-child { border-top: 0 }
+.list a:hover { background: var(--accent-soft); text-decoration: none }
+.list small { font-family: var(--font-mono); color: var(--muted) }
+.empty { color: var(--muted); padding: 30px 0; text-align: center }
+
+@media (max-width: 900px) {
+  .app { grid-template-columns: minmax(0, 1fr) }
+  .rail { position: fixed; inset: 0 auto 0 0; width: min(320px, 88vw); z-index: 20; transform: translateX(-102%); transition: transform .2s ease;
+    padding-top: calc(20px + env(safe-area-inset-top, 0px)); box-shadow: 0 0 40px rgba(0,0,0,.25) }
+  .rail.open { transform: none }
+  .topbar { display: flex; justify-content: space-between; align-items: center; gap: 10px; position: sticky; top: env(safe-area-inset-top, 0px); z-index: 10;
+    background: var(--paper); border-bottom: 1px solid var(--rule); padding-block: 10px; padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)) }
+  body::before { content: ""; position: fixed; inset: 0 0 auto; height: env(safe-area-inset-top, 0px); z-index: 10; background: var(--paper) }
+  .topbar b { font-family: var(--font-display) }
+  main { padding-top: 16px }
+}
+@media (prefers-reduced-motion: reduce) { .rail { transition: none } }
+</style>
+
+<div class="topbar"><b>GATE EC Question Book</b><button class="btn" id="menuBtn" aria-controls="rail" aria-expanded="false">Index</button></div>
+<div class="app">
+  <aside class="rail" id="rail" aria-label="Book index">
+    <a class="brand" href="#home"><b>GATE EC Question Book</b><span>Every EC paper 2007–2026, solved and classified</span></a>
+    <nav>
+      <a class="nav" href="#home" data-r="home">Overview</a>
+      <a class="nav" href="#patterns" data-r="patterns">Patterns &amp; trends</a>
+      <a class="nav" href="#predictions" data-r="predictions">2027 predictions</a>
+      <a class="nav" href="#bank" data-r="bank">Practice question bank</a>
+    </nav>
+    <h4>Papers</h4>
+    <div class="yeargrid" id="paperNav"></div>
+    <h4>Subjects</h4>
+    <div id="subjectNav"></div>
+  </aside>
+  <main><div class="col" id="view"><p class="empty">Loading the book…</p></div></main>
+</div>
+
+<script>
+window.MathJax = {
+  tex: { inlineMath: [["$", "$"]], displayMath: [["$$", "$$"]] },
+  svg: { fontCache: "global" },
+  startup: { typeset: false }
+};
+</script>
+<script src="https://cdn.jsdelivr.net/npm/mathjax@3.2.2/es5/tex-svg.js" async></script>
+<script>
+(() => {
+  const view = document.getElementById("view");
+  let BOOK = null;
+  const imgCache = {};
+  const store = {
+    get(k, d) { try { const v = localStorage.getItem(k); return v === null ? d : JSON.parse(v) } catch (e) { return d } },
+    set(k, v) { try { localStorage.setItem(k, JSON.stringify(v)) } catch (e) {} }
+  };
+  let practice = store.get("practice", true);   // hide answers until asked
+
+  const esc = s => String(s ?? "").replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" })[c]);
+  const nodeName = id => (BOOK.nodes[id] || {}).name || id;
+  const paperLabel = p => p.year + (p.set ? " " + p.set : "");
+  const typeset = el => { if (window.MathJax && MathJax.typesetPromise) MathJax.typesetPromise([el]).catch(() => {}); else setTimeout(() => typeset(el), 400) };
+  const hashId = id => id.replace(/\./g, "-");
+
+  async function loadImgs(paper) {
+    if (!imgCache[paper]) imgCache[paper] = fetch(`data/img-${paper}.json`).then(r => r.json()).catch(() => ({}));
+    return imgCache[paper];
+  }
+
+  function qCard(q, opts = {}) {
+    const paper = BOOK.paperById[q.paper];
+    const el = document.createElement("article");
+    el.className = "sheet";
+    el.id = "q-" + q.id;
+    const typeChip = { MCQ: "MCQ", MSQ: "MSQ · multiple correct", NAT: "NAT · numerical" }[q.type];
+    const chips = [
+      `<span class="chip">${q.marks} mark${q.marks > 1 ? "s" : ""}</span>`,
+      `<span class="chip">${typeChip}</span>`,
+      q.topic ? `<a class="chip" href="#topic-${hashId(q.topic)}">${esc(nodeName(q.topic))}</a>` : `<a class="chip" href="#subject-${hashId(q.subject)}">${esc(nodeName(q.subject))}</a>`,
+      q.off ? `<span class="chip flag" title="Not in the GATE 2027 EC syllabus">off-syllabus · ${esc(q.off)}</span>` : "",
+      q.sol && q.sol.level ? `<span class="chip plain">${esc(q.sol.level)} · ${esc(q.sol.style)}</span>` : ""
+    ].join("");
+    el.innerHTML = `
+      <header>
+        <a class="qid" href="#paper-${q.paper}">${opts.showPaper ? esc(paperLabel(paper)) + " · " : ""}Q.${esc(q.q)}</a>${chips}
+        <div class="qsum">${esc(q.subtopic ? nodeName(q.subtopic) + " — " : "")}${esc(q.summary)}</div>
+      </header>
+      <div class="qimg">${q.img ? '<div class="ph" aria-hidden="true"></div>' : '<p class="pending">Question image unavailable; see the PDF.</p>'}</div>
+      <footer></footer>
+      <div class="sol" hidden></div>`;
+    const foot = el.querySelector("footer"), sol = el.querySelector(".sol");
+    if (q.sol) {
+      sol.innerHTML = `
+        <div class="anskey"><span class="k">Answer</span><span>${q.sol.ans}</span></div>
+        ${q.sol.concept ? `<div class="concept"><b>Key idea.</b> ${q.sol.concept}</div>` : ""}
+        <div class="prose">${q.sol.html}</div>`;
+      const btn = document.createElement("button");
+      btn.className = "btn primary";
+      const set = open => { sol.hidden = !open; btn.textContent = open ? "Hide solution" : "Show answer & solution"; btn.setAttribute("aria-expanded", open); if (open) typeset(sol) };
+      btn.addEventListener("click", () => set(sol.hidden));
+      foot.appendChild(btn);
+      set(!practice);
+    } else {
+      foot.innerHTML = `<span class="pending">Worked solution coming soon.</span>`;
+    }
+    if (q.img) io.observe(el);
+    return el;
+  }
+
+  const io = new IntersectionObserver(entries => {
+    for (const e of entries) {
+      if (!e.isIntersecting) continue;
+      io.unobserve(e.target);
+      const id = e.target.id.slice(2), q = BOOK.qById[id];
+      loadImgs(q.paper).then(map => {
+        const box = e.target.querySelector(".qimg");
+        if (map[q.q]) box.innerHTML = `<img alt="GATE ${esc(paperLabel(BOOK.paperById[q.paper]))} question ${esc(q.q)}" src="${map[q.q]}">`;
+      });
+    }
+  }, { rootMargin: "600px 0px" });
+
+  function toolbar(onChange, withSearch = false) {
+    const bar = document.createElement("div");
+    bar.className = "toolbar";
+    bar.innerHTML = `
+      ${withSearch ? '<input type="search" id="q-search" placeholder="Search questions, e.g. Smith chart, Routh, entropy" aria-label="Search questions">' : ""}
+      <select id="f-type" aria-label="Question type"><option value="">All types</option><option>MCQ</option><option>MSQ</option><option>NAT</option></select>
+      <select id="f-marks" aria-label="Marks"><option value="">1 & 2 marks</option><option value="1">1 mark</option><option value="2">2 marks</option></select>
+      <button class="btn" id="practiceBtn"></button>`;
+    const pb = bar.querySelector("#practiceBtn");
+    const label = () => pb.textContent = practice ? "Practice mode: answers hidden" : "Study mode: answers shown";
+    label();
+    pb.addEventListener("click", () => { practice = !practice; store.set("practice", practice); label(); onChange() });
+    bar.querySelectorAll("select,input").forEach(i => i.addEventListener("input", onChange));
+    return bar;
+  }
+  const filt = (qs, bar) => {
+    const t = bar.querySelector("#f-type").value, m = bar.querySelector("#f-marks").value;
+    const s = (bar.querySelector("#q-search") || {}).value?.trim().toLowerCase();
+    return qs.filter(q => (!t || q.type === t) && (!m || String(q.marks) === m) &&
+      (!s || (q.summary + " " + nodeName(q.topic) + " " + nodeName(q.subtopic) + " " + (q.sol ? q.sol.concept : "")).toLowerCase().includes(s)));
+  };
+
+  function listView(title, crumbs, lede, qs, opts) {
+    view.innerHTML = `<div class="crumbs">${crumbs}</div><h1>${title}</h1>${lede ? `<p class="lede">${lede}</p>` : ""}`;
+    const holder = document.createElement("div");
+    holder.className = "col";
+    holder.style.gap = "14px";
+    const bar = toolbar(render, opts.search);
+    const count = document.createElement("p");
+    count.className = "crumbs";
+    view.append(bar, count, holder);
+    function render() {
+      const shown = filt(qs, bar);
+      count.textContent = `${shown.length} question${shown.length === 1 ? "" : "s"} · ${shown.filter(q => q.sol).length} with worked solutions`;
+      holder.replaceChildren(...shown.map(q => qCard(q, opts)));
+      if (!shown.length) holder.innerHTML = `<p class="empty">No questions match these filters.</p>`;
+    }
+    render();
+  }
+
+  function home() {
+    const P = BOOK.papers, Q = BOOK.questions;
+    const solved = Q.filter(q => q.sol).length;
+    view.innerHTML = `
+      <section class="hero">
+        <div class="crumbs">GATE · Electronics &amp; Communication · 2007–2026</div>
+        <h1>Every GATE EC question, with the reasoning written out</h1>
+        <p class="lede">${Q.length.toLocaleString()} questions from ${P.length} papers, each shown exactly as it appeared in the exam, tagged to the GATE 2027 syllabus, and solved step by step from first principles. Open a paper to practise it in order, or a topic to see how examiners have asked it over twenty years.</p>
+      </section>
+      <div class="stats">
+        <div class="stat"><b>${Q.length.toLocaleString()}</b><span>questions, 2007–2026</span></div>
+        <div class="stat"><b>${solved.toLocaleString()}</b><span>with worked solutions so far</span></div>
+        <div class="stat"><b>${P.length}</b><span>papers, incl. every set of 2014–17</span></div>
+        <div class="stat"><b>${BOOK.sections.filter(s => !s.id.startsWith("GA")).reduce((n, s) => n + s.topics.length, 0)}</b><span>syllabus topics covered</span></div>
+      </div>
+      <h2>Start here</h2>
+      <div class="cards">
+        <a class="card" href="#paper-2026"><b>GATE 2026 paper</b><span>The latest paper, fully solved</span></a>
+        <a class="card" href="#patterns"><b>Patterns &amp; trends</b><span>What gets asked, how often, and how the style has shifted</span></a>
+        <a class="card" href="#predictions"><b>10 questions for 2027</b><span>Where the evidence points next, with solutions</span></a>
+        <a class="card" href="#bank"><b>Practice question bank</b><span>New questions modelled on twenty years of patterns</span></a>
+      </div>
+      <h2>Search all questions</h2>`;
+    const holder = document.createElement("div");
+    holder.className = "col";
+    holder.style.gap = "14px";
+    const bar = toolbar(run, true);
+    const count = document.createElement("p");
+    count.className = "crumbs";
+    view.append(bar, count, holder);
+    function run() {
+      const s = bar.querySelector("#q-search").value.trim();
+      if (s.length < 3) { count.textContent = "Type at least three letters to search every question."; holder.replaceChildren(); return }
+      const shown = filt(Q, bar).slice().sort((a, b) => b.year - a.year).slice(0, 40);
+      count.textContent = `${shown.length === 40 ? "First 40" : shown.length} matching question${shown.length === 1 ? "" : "s"}`;
+      holder.replaceChildren(...shown.map(q => qCard(q, { showPaper: true })));
+    }
+    run();
+  }
+
+  function page(name, title, crumbs) {
+    const pg = BOOK.pages[name];
+    view.innerHTML = `<div class="crumbs">${crumbs}</div><h1>${title}</h1>`;
+    if (!pg) { view.insertAdjacentHTML("beforeend", `<p class="empty">This section is being written.</p>`); return }
+    const intro = document.createElement("div");
+    intro.className = "prose";
+    intro.innerHTML = pg.intro;
+    view.append(intro);
+    for (const it of pg.items) {
+      const el = document.createElement("article");
+      el.className = "sheet";
+      el.innerHTML = `
+        <header><span class="qid">${esc(it.id)}</span>${it.topic ? `<span class="chip">${esc(it.topic)}</span>` : ""}${it.marks ? `<span class="chip">${esc(it.marks)}</span>` : ""}${it.type ? `<span class="chip">${esc(it.type)}</span>` : ""}
+        ${it.why ? `<div class="qsum">${esc(it.why)}</div>` : ""}</header>
+        <div class="prose" style="padding:14px 18px 4px">${it.question_html || ""}</div>
+        <footer></footer><div class="sol" hidden>
+          <div class="anskey"><span class="k">Answer</span><span>${it.ans_html || ""}</span></div>
+          <div class="prose">${it.html}</div></div>`;
+      const sol = el.querySelector(".sol"), btn = document.createElement("button");
+      btn.className = "btn primary";
+      const set = open => { sol.hidden = !open; btn.textContent = open ? "Hide solution" : "Show answer & solution"; if (open) typeset(sol) };
+      btn.addEventListener("click", () => set(sol.hidden));
+      el.querySelector("footer").appendChild(btn);
+      set(false);
+      view.append(el);
+    }
+    typeset(view);
+  }
+
+  function route() {
+    const h = location.hash.slice(1) || "home";
+    document.querySelectorAll("[data-r]").forEach(a => a.classList.toggle("on", a.dataset.r === h));
+    window.scrollTo(0, 0);
+    document.getElementById("rail").classList.remove("open");
+    if (h.startsWith("paper-")) {
+      const p = BOOK.paperById[h.slice(6)];
+      if (!p) return home();
+      const qs = BOOK.questions.filter(q => q.paper === p.id);
+      listView(`GATE ${esc(paperLabel(p))}`, "Papers", `${p.count} questions · ${p.solved} with worked solutions. Questions appear in exam order; General Aptitude first where the paper put it first.`, qs, { search: true });
+    } else if (h.startsWith("topic-") || h.startsWith("subject-")) {
+      const id = h.replace(/^(topic|subject)-/, "").replace(/-/g, ".");
+      const node = BOOK.nodes[id];
+      if (!node) return home();
+      const key = h.startsWith("topic-") ? "topic" : "subject";
+      const qs = BOOK.questions.filter(q => q[key] === id).sort((a, b) => b.year - a.year || a.paper.localeCompare(b.paper));
+      const years = new Set(qs.map(q => q.year));
+      const lede = `${qs.length} questions across ${years.size} of the last 20 years, newest first.` + (node.subs ? " Subtopics: " + node.subs.map(s => esc(s.name)).join(", ") + "." : "");
+      listView(esc(node.name), key === "topic" ? `${esc(nodeName(node.sec))} · ${id}` : id, lede, qs, { showPaper: true, search: true });
+    } else if (h === "patterns") page("patterns", "Patterns &amp; trends", "Insights");
+    else if (h === "predictions") page("predictions", "Ten questions for GATE 2027", "Insights");
+    else if (h === "bank") page("bank", "Practice question bank", "Insights");
+    else home();
+  }
+
+  function buildNav() {
+    document.getElementById("paperNav").innerHTML = BOOK.papers.slice().reverse().map(p =>
+      `<a href="#paper-${p.id}" data-r="paper-${p.id}" title="GATE ${esc(paperLabel(p))}: ${p.solved}/${p.count} solved">${p.year}${p.set ? "·" + p.set.replace("Set ", "") : ""}<span class="pct"><i style="width:${Math.round(100 * p.solved / p.count)}%"></i></span></a>`).join("");
+    const counts = {};
+    BOOK.questions.forEach(q => { counts[q.subject] = (counts[q.subject] || 0) + 1; if (q.topic) counts[q.topic] = (counts[q.topic] || 0) + 1 });
+    document.getElementById("subjectNav").innerHTML = BOOK.sections.map(s => `
+      <details class="subj"><summary>${esc(s.name)}<small class="mono">${counts[s.id] || 0}</small></summary><nav>
+        <a class="nav" href="#subject-${hashId(s.id)}" data-r="subject-${hashId(s.id)}">All ${esc(s.name)}<small>${counts[s.id] || 0}</small></a>
+        ${s.topics.map(t => `<a class="nav" href="#topic-${hashId(t.id)}" data-r="topic-${hashId(t.id)}">${esc(t.name)}<small>${counts[t.id] || 0}</small></a>`).join("")}
+      </nav></details>`).join("");
+  }
+
+  document.getElementById("menuBtn").addEventListener("click", e => {
+    const r = document.getElementById("rail"); r.classList.toggle("open");
+    e.currentTarget.setAttribute("aria-expanded", r.classList.contains("open"));
+  });
+
+  fetch("data/book.json").then(r => r.json()).then(b => {
+    BOOK = b;
+    b.paperById = Object.fromEntries(b.papers.map(p => [p.id, p]));
+    b.qById = Object.fromEntries(b.questions.map(q => [q.id, q]));
+    b.nodes = {};
+    for (const s of b.sections) {
+      b.nodes[s.id] = { name: s.name };
+      for (const t of s.topics) {
+        b.nodes[t.id] = { name: t.name, sec: s.id, subs: t.subtopics };
+        for (const st of t.subtopics) b.nodes[st.id] = { name: st.name, sec: s.id };
+      }
+    }
+    buildNav();
+    route();
+    addEventListener("hashchange", route);
+  }).catch(() => { view.innerHTML = `<p class="empty">The book's data didn't load. Reload the page to try again.</p>` });
+})();
+</script>
