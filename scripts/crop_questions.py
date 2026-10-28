@@ -45,7 +45,7 @@ PAPERS = {
     "2017-1": ("EC1-2017-repaired.pdf", [(1, 22, "")], "ocr"),
     "2017-2": ("EC2-2017.pdf", [(2, 30, "")], "ocr"),
     "2018": ("EC2018.pdf", [(1, 3, "GA"), (4, 20, "")], "text"),
-    "2019": ("EC2019.pdf", [(1, 31, "")], "ocr"),
+    "2019": ("EC2019.pdf", [(1, 28, "")], "ocr"),
     "2020": ("EC2020.pdf", [(1, 18, "")], "qno"),
     "2021": ("EC2021.pdf", [(1, 39, "")], "ocr"),
     "2022": ("EC2022.pdf", [(1, 52, "")], "text"),
@@ -53,6 +53,11 @@ PAPERS = {
     "2024": ("EC2024.pdf", [(1, 46, "")], "text"),
     "2025": ("EC2025.pdf", [(1, 52, "")], "text"),
     "2026": ("EC.pdf", [(1, 58, "")], "text"),
+}
+
+# Anchors OCR misses: paper -> [(page 1-based, y in pixels at DPI, question number)]
+MANUAL = {
+    "2019": [(14, 316, "19")],
 }
 
 Q_RE = re.compile(r"^\s*Q\s*[\.,]?\s*(?:No\.?\s*)?(\d{1,2})(?!\d)(?!\s*(?:[–\-]|to\b))")
@@ -136,7 +141,11 @@ def find_anchors(lines, w, h, mode):
 
 
 def content_band(lines, w, h, first_anchor=None, headers=True):
-    """Exclude running header/footer: lines fully in the top/bottom 7% bands."""
+    """Exclude running header/footer: lines in the top/bottom 10% bands.
+
+    The footer starts at the first bottom-band line that is set apart from the line above
+    it by a gap, so options running into the bottom band are kept.
+    """
     top, bot = 0.035 * h, 0.965 * h
     for x0, y0, x1, y1, t in lines:
         ts = t.strip()
@@ -146,8 +155,13 @@ def content_band(lines, w, h, first_anchor=None, headers=True):
             pass
         elif headers and y1 < 0.10 * h:
             top = max(top, y1 + 3)
-        if headers and y0 > 0.90 * h:   # 2020 (qno) has no footer and sets options near the foot
-            bot = min(bot, y0 - 3)
+    if headers:   # 2020 (qno) has no footer and sets options near the foot
+        prev_bottom = 0
+        for x0, y0, x1, y1, t in sorted(lines, key=lambda l: l[1]):
+            if y0 > 0.90 * h and y0 - prev_bottom >= 12:
+                bot = min(bot, y0 - 3)
+                break
+            prev_bottom = max(prev_bottom, y1)
     return top, bot
 
 
@@ -193,6 +207,8 @@ def crop_paper(paper, out_dir):
             for y, kind, val in anchors:
                 if top - 20 <= y <= bot:
                     events.append((p, y, kind, val, prefix))
+    for page, y, val in MANUAL.get(paper, []):
+        events.append((page - 1, y, "q", val, ""))
     events.sort(key=lambda e: (e[0], e[1]))
     if paper in ("2019", "2020", "2021"):   # GA Q1-10 come first, then EC restarts at Q1
         prev = 0

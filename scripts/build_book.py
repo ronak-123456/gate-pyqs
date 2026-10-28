@@ -101,6 +101,9 @@ def check_answer(ans, key):
         return None
     if key in ("MTA", "Marks to All"):
         return True
+    if " OR " in key:   # several accepted answers
+        res = [check_answer(ans, k) for k in key.split(" OR ")]
+        return True if True in res else (None if None in res else False)
     plain = re.sub(r"<[^>]+>|\$", " ", ans).replace("−", "-")
     m = re.match(r"\s*(-?[\d.]+)\s+to\s+(-?[\d.]+)", key)
     if m:
